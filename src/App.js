@@ -6,11 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>New App idea</h1>
+      <h1>Gamer Ranks</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          New App Coming Soon...
-        </p>
       </header>
     </div>
   );
