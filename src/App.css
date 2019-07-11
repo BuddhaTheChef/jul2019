@@ -1,7 +1,7 @@
-.App {
+/* .App {
   text-align: center;
   height: -webkit-fill-available;
-}
+} */
 
 body {
   margin: 0;
@@ -12,9 +12,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
+  height: auto;
+  overflow-x: hidden;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
@@ -47,4 +49,44 @@ code {
   to {
     transform: rotate(360deg);
   }
+}  */
+
+#main {
+  width: 92%;
+  height: 690px;
+  background: linear-gradient(#66FFFD, #FFF);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+#logo {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 16%;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 60px;
+  color: #282c34;
+}
+
+#mainImg {
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 119px;
+}
+
+#xbox-div {
+  height: 158px;
+  width: inherit;
+  position: absolute;
+  left: 68%;
+  transform: translateX(-50%);
+  top: 643px;
 }
