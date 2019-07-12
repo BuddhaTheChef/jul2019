@@ -60,6 +60,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .landingPageTitle {
@@ -87,6 +88,17 @@ body {
   left: 50%;
   transform: translateX(-50%);
   top: 119px;
+}
+
+.main-sub-content-div {
+  background: #282c34;
+    height: 384px;
+    width: 92%;
+    left: 66px;
+    position: absolute;
+    top: 763px;
+    z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #xbox-div {

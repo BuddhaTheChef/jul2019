@@ -20,29 +20,33 @@ class LandingPage extends Component {
             <Parallax id="xbox-div" y={[125, 280]} x={[200, 0]} style={{overflow: 'hidden'}}>
             <img src={PS4Controller} alt="ps4controller" className="ps4ControllerImg"/>
             </Parallax>
+            <div className="main-sub-content-div">
       <h1 style={{display:'inline-block', margin: '0 45%', width: 'max-content'}}>
-
+            SOME TEXT HERE
       </h1>
       </div>
-      <div style={{height: '70vh', backgroundColor: 'grey'}}>
+      </div>
+      <div style={{height: '70vh', backgroundColor: 'grey', margin: '20px auto 150px auto', width: '92%',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
             <Parallax id="xbox-div" y={[10, 250]} x={[-290, 10]} style={{overflow: 'hidden'}}>
             <img src={Keyboard} alt="Keyboard" className="keyboardImg"/>
             </Parallax>
       <h1 style={{display:'inline-block'}}>
-
+            SOME TEXT HERE
       </h1>
       </div>
-      <div style={{height: '45vh', background: 'linear-gradient(#66FFFD, #FFF)'}}>
+      <div style={{height: '70vh', background: 'linear-gradient(#66FFFD, #FFF)', margin: '0px auto', width: '92%',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
       <h1 style={{display:'inline-block'}}>
-
+            SOME TEXT HERE
       </h1>
       </div>
-      <div style={{height: '45vh'}}>
+      <div style={{height: '70vh', margin: '20px auto', width: '92%',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
       <h1 style={{display:'inline-block'}}>
+            SOME TEXT HERE
       </h1>
       </div>
-      <div style={{height: '70vh', backgroundColor: 'grey'}}>
+      <div style={{height: '70vh', backgroundColor: 'grey', margin: '20px auto', width: '92%',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
       <h1 style={{display:'inline-block'}}>
+            SOME TEXT HERE
       </h1>
       </div>
         </div>
