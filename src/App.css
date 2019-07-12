@@ -62,6 +62,13 @@ body {
   overflow: hidden;
 }
 
+.landingPageTitle {
+  text-align: center; 
+  font-size: 112px;
+  font-family: 'Bungee Shade', cursive;
+  text-shadow: 4px 4px 9px black;
+}
+
 #logo {
   height: 100px;
   width: 100%;
@@ -89,4 +96,20 @@ body {
   left: 68%;
   transform: translateX(-50%);
   top: 643px;
+}
+
+.xboxControllerImg {
+  -webkit-filter: drop-shadow(15px 15px 15px #222);
+  filter: drop-shadow(5px 20px 12px #222);
+  height: 260px;
+}
+.ps4ControllerImg {
+  -webkit-filter: drop-shadow(15px 15px 15px #222);
+  filter: drop-shadow(5px 20px 12px #222);
+  height: 260px;
+}
+.keyboardImg {
+  -webkit-filter: drop-shadow(15px 15px 15px #222);
+  filter: drop-shadow(5px 20px 12px #222);
+  height: 200px;
 }

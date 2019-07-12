@@ -10,32 +10,40 @@ class LandingPage extends Component {
         return (
             <div>
             <div id="main">
-                <Parallax id="logo" y={[-100, 70]} tagOuter="figure"><h1 style={{textAlign: 'center', fontSize: '121px'}}>GAME TIME MACHINE</h1></Parallax>
+                <Parallax id="logo" y={[-190, 90]} tagOuter="figure"><h1 className="landingPageTitle">GAME TIME MACHINE</h1></Parallax>
                 <div id="mainImg"><img src={Skyline} alt="skyline" style={{width: '100%'}}/></div>
             </div> 
             <Parallax id="xbox-div" y={[120, 300]} x={[-135, 50]} style={{overflow: 'hidden'}}>
-            <img src={XboxController} alt="xboxcontroller" style={{height: '260px'}}/>
+            <img src={XboxController} alt="xboxcontroller"  className='xboxControllerImg'/>
             </Parallax>
             <div style={{ marginTop: '470px', height: '45vh'}}>
             <Parallax id="xbox-div" y={[125, 280]} x={[200, 0]} style={{overflow: 'hidden'}}>
-            <img src={PS4Controller} alt="ps4controller" style={{height: '260px'}}/>
+            <img src={PS4Controller} alt="ps4controller" className="ps4ControllerImg"/>
             </Parallax>
-      <h1 style={{display:'inline-block', margin: '0 45%', width: 'max-content'}}>GAMER 1</h1>
+      <h1 style={{display:'inline-block', margin: '0 45%', width: 'max-content'}}>
+
+      </h1>
       </div>
       <div style={{height: '70vh', backgroundColor: 'grey'}}>
             <Parallax id="xbox-div" y={[10, 250]} x={[-290, 10]} style={{overflow: 'hidden'}}>
-            <img src={Keyboard} alt="Keyboard" style={{height: '200px'}}/>
+            <img src={Keyboard} alt="Keyboard" className="keyboardImg"/>
             </Parallax>
-      <h1 style={{display:'inline-block'}}>GAMER 2</h1>
+      <h1 style={{display:'inline-block'}}>
+
+      </h1>
       </div>
       <div style={{height: '45vh', background: 'linear-gradient(#66FFFD, #FFF)'}}>
-      <h1 style={{display:'inline-block'}}>GAMER 3</h1>
+      <h1 style={{display:'inline-block'}}>
+
+      </h1>
       </div>
       <div style={{height: '45vh'}}>
-      <h1 style={{display:'inline-block'}}>GAMER 4</h1>
+      <h1 style={{display:'inline-block'}}>
+      </h1>
       </div>
       <div style={{height: '70vh', backgroundColor: 'grey'}}>
-      <h1 style={{display:'inline-block'}}>GAMER 5</h1>
+      <h1 style={{display:'inline-block'}}>
+      </h1>
       </div>
         </div>
             );
