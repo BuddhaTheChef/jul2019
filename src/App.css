@@ -91,20 +91,26 @@ body {
 }
 
 .main-sub-content-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: #282c34;
     height: 384px;
-    width: 92%;
-    left: 66px;
+    padding: 0px 55px;
+    width: 1420px;
+    left: 4%;
     position: absolute;
     top: 763px;
     z-index: -1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 #xbox-div {
   height: 158px;
   width: inherit;
-  position: absolute;
+  position: absolute !important;
   left: 68%;
   transform: translateX(-50%);
   top: 643px;
