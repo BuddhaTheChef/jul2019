@@ -52,7 +52,7 @@ class LandingPage extends Component {
             >
               SOME TEXT HERE
             </h1>
-            <p style={{ fontSize: "29px" }}>
+            <p style={{ fontSize: "29px", lineHeight: '1.5' }}>
               Quisque a felis vitae nisi tincidunt pretium. In sed malesuada
               nisi. Nulla mollis ac ante sed laoreet. In porttitor neque justo,
               vitae mollis purus faucibus vel. Vestibulum ac vulputate lorem.
@@ -66,17 +66,17 @@ class LandingPage extends Component {
         <div
           style={{
             height: "800px",
-            backgroundColor: "grey",
+            backgroundColor: "slategrey",
             margin: "50px auto 150px auto",
             width: "1420px",
-            boxShadow:
-              "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+            boxShadow: "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)",
             padding: "0px 55px",
             flexDirection: "column",
             fontSize: "30px",
             justifyContent: "center",
             alignItems: "center",
-            textAlign: "center"
+            textAlign: "center",
+            borderRadius: '9px'
           }}
         >
           <Parallax
@@ -90,7 +90,7 @@ class LandingPage extends Component {
           <h1 style={{ display: "inline-block", margin: "-50px" }}>
             SOME TEXT HERE
           </h1>
-          <p>
+          <p style={{lineHeight: '1.5'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             suscipit purus sed leo ullamcorper, finibus fringilla diam
             consectetur. Nullam velit nunc, semper non tellus vitae, varius
@@ -110,22 +110,22 @@ class LandingPage extends Component {
         </div>
         <div
           style={{
-            height: "70vh",
+            height: "55vh",
             background: "linear-gradient(#66FFFD, #FFF)",
-            margin: "50px auto",
-            width: "1420px",
+            margin: "50px 65px",
+            width: "600px",
             padding: "0px 55px",
-            fontSize: "30px",
+            borderRadius: '9px',
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
             display: "flex",
             boxShadow:
-              "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
+            "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)"
           }}
         >
           <h1 style={{ display: "inline-block" }}>SOME TEXT HERE</h1>
-          <p>
+          <p style={{lineHeight: '1.5'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             suscipit purus sed leo ullamcorper, finibus fringilla diam
             consectetur. Nullam velit nunc, semper non tellus vitae, varius
@@ -145,21 +145,21 @@ class LandingPage extends Component {
         </div>
         <div
           style={{
-            height: "70vh",
-            boxShadow:
-              "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-            margin: "50px auto",
-            width: "1420px",
+            height: "55vh",
+            margin: "150px 65px 50px auto",
+            width: "600px",
             padding: "0px 55px",
-            fontSize: "30px",
+            borderRadius: '9px',
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
-            display: "flex"
+            display: "flex",
+            boxShadow:
+            "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)"
           }}
         >
           <h1 style={{ display: "inline-block" }}>SOME TEXT HERE</h1>
-          <p>
+          <p style={{lineHeight: '1.5'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             suscipit purus sed leo ullamcorper, finibus fringilla diam
             consectetur. Nullam velit nunc, semper non tellus vitae, varius
@@ -179,22 +179,58 @@ class LandingPage extends Component {
         </div>
         <div
           style={{
-            height: "70vh",
-            backgroundColor: "grey",
-            boxShadow:
-              "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-            margin: "50px auto",
-            width: "1420px",
+            backgroundColor: "slategrey",
+            height: "55vh",
+            margin: "150px 65px",
+            width: "600px",
             padding: "0px 55px",
-            fontSize: "30px",
+            borderRadius: '9px',
             flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
-            display: "flex"
+            display: "flex",
+            boxShadow:
+            "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)"
           }}
         >
           <h1 style={{ display: "inline-block" }}>SOME TEXT HERE</h1>
-          <p>
+          <p style={{lineHeight: '1.5'}}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            suscipit purus sed leo ullamcorper, finibus fringilla diam
+            consectetur. Nullam velit nunc, semper non tellus vitae, varius
+            elementum libero. Proin tempor tincidunt leo, eget ullamcorper erat
+            sagittis eu. Quisque vulputate eu lectus nec laoreet. Pellentesque
+            habitant morbi tristique senectus et netus et malesuada fames ac
+            turpis egestas. Maecenas eros nibh, feugiat non luctus eget,
+            molestie vitae justo. Cras placerat sagittis semper. Etiam urna
+            massa, consequat nec tristique sed, vulputate id tellus. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Praesent egestas erat eget ante accumsan
+            blandit. Sed gravida dui non orci sagittis vehicula quis non sapien.
+            Sed magna ex, aliquet in rhoncus sit amet, volutpat ac ante. Etiam
+            at massa blandit, semper sem vel, suscipit tortor. Mauris sagittis
+            erat risus, faucibus finibus orci pharetra eu.
+          </p>
+        </div>
+
+           <div
+          style={{
+            height: "55vh",
+            background: "linear-gradient(#66FFFD, #FFF)",
+            margin: "150px 65px 50px auto",
+            width: "600px",
+            padding: "0px 55px",
+            borderRadius: '9px',
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            display: "flex",
+            boxShadow:
+            "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)"
+          }}
+        >
+          <h1 style={{ display: "inline-block" }}>SOME TEXT HERE</h1>
+          <p style={{lineHeight: '1.5'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             suscipit purus sed leo ullamcorper, finibus fringilla diam
             consectetur. Nullam velit nunc, semper non tellus vitae, varius
