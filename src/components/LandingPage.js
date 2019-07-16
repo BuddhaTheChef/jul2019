@@ -3,6 +3,7 @@ import Skyline from "../assets/skyline1.png";
 import XboxController from "../assets/xboxcontroller.png";
 import PS4Controller from "../assets/ps4controller1.png";
 import Keyboard from "../assets/mechkeyboard.png";
+import Triangles from '../assets/triangles.png';
 import { Parallax } from "react-scroll-parallax";
 
 class LandingPage extends Component {
@@ -116,7 +117,7 @@ class LandingPage extends Component {
         <div
           style={{
             height: "55vh",
-            background: "linear-gradient(#66FFFD, #FFF)",
+            background: "#09e6bc",
             margin: "50px 65px",
             width: "600px",
             padding: "0px 55px",
@@ -148,6 +149,31 @@ class LandingPage extends Component {
             erat risus, faucibus finibus orci pharetra eu.
           </p>
         </div>
+        <Parallax
+        y={[-110,30]}
+        x={[58.5, 58.5]}
+          id="triangles1"
+          style={{ overflow: "hidden" }}
+        >
+          <img
+            src={Triangles}
+            alt="triangles"
+            style={{height: '300px'}}
+          />
+        </Parallax>
+
+               <Parallax
+        y={[3,150]}
+        x={[8.2, 8.2]}
+          id="triangles2"
+          style={{ overflow: "hidden" }}
+        >
+          <img
+            src={Triangles}
+            alt="triangles"
+            style={{height: '300px'}}
+          />
+        </Parallax>
         <div
           style={{
             height: "55vh",
@@ -222,7 +248,7 @@ class LandingPage extends Component {
            <div
           style={{
             height: "55vh",
-            background: "linear-gradient(#66FFFD, #FFF)",
+            background: "#09e6bc",
             margin: "150px 65px 50px auto",
             width: "600px",
             padding: "0px 55px",
