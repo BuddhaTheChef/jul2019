@@ -9,6 +9,11 @@ class LandingPage extends Component {
   render() {
     return (
       <div>
+          <div class="vl1"></div>
+          <div class="vl2"></div>
+          <div class="vl3"></div>
+          <div class="vl4"></div>
+          <div class="vl5"></div>
         <div id="main">
           <Parallax id="logo" y={[-190, 90]} tagOuter="figure">
             <h1 className="landingPageTitle">GAME TIME MACHINE</h1>
@@ -146,6 +151,7 @@ class LandingPage extends Component {
         <div
           style={{
             height: "55vh",
+            backgroundColor: '#282c34',
             margin: "150px 65px 50px auto",
             width: "600px",
             padding: "0px 55px",
