@@ -75,7 +75,7 @@ class LandingPage extends Component {
             backgroundColor: "slategrey",
             margin: "50px auto 150px auto",
             width: "1420px",
-            boxShadow: "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)",
+            boxShadow: "0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
             padding: "0px 55px",
             flexDirection: "column",
             fontSize: "30px",
@@ -127,7 +127,7 @@ class LandingPage extends Component {
             alignItems: "center",
             display: "flex",
             boxShadow:
-            "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)"
+            "0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
           }}
         >
           <h1 style={{ display: "inline-block" }}>SOME TEXT HERE</h1>
@@ -187,7 +187,7 @@ class LandingPage extends Component {
             alignItems: "center",
             display: "flex",
             boxShadow:
-            "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)"
+            "0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
           }}
         >
           <h1 style={{ display: "inline-block" }}>SOME TEXT HERE</h1>
@@ -222,7 +222,7 @@ class LandingPage extends Component {
             alignItems: "center",
             display: "flex",
             boxShadow:
-            "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)"
+            "0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
           }}
         >
           <h1 style={{ display: "inline-block" }}>SOME TEXT HERE</h1>
@@ -244,12 +244,36 @@ class LandingPage extends Component {
             erat risus, faucibus finibus orci pharetra eu.
           </p>
         </div>
+        <Parallax
+         y={[-150,40]}
+         x={[58.5, 58.5]}
+          id="triangles2"
+          style={{ overflow: "hidden" }}
+        >
+          <img
+            src={Triangles}
+            alt="triangles"
+            style={{height: '300px'}}
+          />
+        </Parallax>
+        <Parallax
+        y={[3,150]}
+        x={[8.2, 8.2]}
+          id="triangles2"
+          style={{ overflow: "hidden" }}
+        >
+          <img
+            src={Triangles}
+            alt="triangles"
+            style={{height: '300px'}}
+          />
+        </Parallax>
 
            <div
           style={{
             height: "55vh",
             background: "#09e6bc",
-            margin: "150px 65px 50px auto",
+            margin: "50px 65px 50px auto",
             width: "600px",
             padding: "0px 55px",
             borderRadius: '9px',
@@ -258,7 +282,7 @@ class LandingPage extends Component {
             alignItems: "center",
             display: "flex",
             boxShadow:
-            "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.2)"
+            "0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
           }}
         >
           <h1 style={{ display: "inline-block" }}>SOME TEXT HERE</h1>
