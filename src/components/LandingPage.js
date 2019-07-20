@@ -177,8 +177,8 @@ class LandingPage extends Component {
         <div
           style={{
             height: "55vh",
-            backgroundColor: '#282c34',
-            margin: "150px 65px 50px auto",
+            backgroundColor: 'slategray',
+            margin: "10px 65px 150px auto",
             width: "600px",
             padding: "0px 55px",
             borderRadius: '9px',
@@ -211,9 +211,9 @@ class LandingPage extends Component {
         </div>
         <div
           style={{
-            backgroundColor: "slategrey",
+            backgroundColor: "#09e6bc",
             height: "55vh",
-            margin: "150px 65px",
+            margin: "420px 65px 0px 65px",
             width: "600px",
             padding: "0px 55px",
             borderRadius: '9px',
@@ -272,8 +272,8 @@ class LandingPage extends Component {
            <div
           style={{
             height: "55vh",
-            background: "#09e6bc",
-            margin: "50px 65px 50px auto",
+            background: "slategray",
+            margin: "0px 65px 50px auto",
             width: "600px",
             padding: "0px 55px",
             borderRadius: '9px',
