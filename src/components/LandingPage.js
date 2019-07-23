@@ -334,6 +334,34 @@ class LandingPage extends Component {
             style={{height: '300px'}}
           />
         </Parallax>
+
+        <Parallax
+        y={[-1000, -1900]}
+        x={[80, 80]}
+          id="triangles1"
+          style={{ overflow: "hidden" }}
+        >
+          <img
+            src={Triangles}
+            alt="triangles"
+            style={{height: '100px', transform: 'rotate(180deg)'}}
+          />
+        </Parallax>
+
+        <Parallax
+        y={[-200, -900]}
+        x={[47, 47]}
+          id="triangles1"
+          style={{ overflow: "hidden" }}
+        >
+          <img
+            src={Triangles}
+            alt="triangles"
+            style={{height: '100px', transform: 'rotate(180deg)'}}
+          />
+        </Parallax>
+
+
         <Parallax
         y={[3,150]}
         x={[8.2, 8.2]}
