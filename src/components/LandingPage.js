@@ -18,11 +18,11 @@ class LandingPage extends Component {
 
           <div class="nav">
   <ul class="nav-list">
-    <li class="nav-list__item nav-list__item--active"><a href="#">Features</a></li>
-    <li class="nav-list__item"><a href="#">Tech Specs</a></li>
-    <li class="nav-list__item"><a href="#">Design &amp; Technology</a></li>
-    <li class="nav-list__item"><a href="#">Expert Coaching</a></li>
-    <li class="nav-list__item"><a href="#">What's In The Box</a></li>
+    <li class="nav-list__item nav-list__item--active"><a href="#" className="nav-list__link">Features</a></li>
+    <li class="nav-list__item"><a href="#" className="nav-list__link">Tech Specs</a></li>
+    <li class="nav-list__item"><a href="#" className="nav-list__link">Design &amp; Technology</a></li>
+    <li class="nav-list__item"><a href="#" className="nav-list__link">Expert Coaching</a></li>
+    <li class="nav-list__item"><a href="#" className="nav-list__link">What's In The Box</a></li>
   </ul>
 </div>
         <div id="main">
@@ -35,8 +35,8 @@ class LandingPage extends Component {
         </div>
         <Parallax
           id="xbox-div"
-          y={[120, 300]}
-          x={[-135, 50]}
+          y={[300, 300]}
+          x={[-305, 40]}
           style={{ overflow: "hidden" }}
         >
           <img
@@ -48,7 +48,7 @@ class LandingPage extends Component {
         <div style={{ marginTop: "470px", height: "45vh" }}>
           <Parallax
             id="xbox-div"
-            y={[125, 280]}
+            y={[205, 205]}
             x={[200, 0]}
             style={{ overflow: "hidden" }}
           >
@@ -83,7 +83,7 @@ class LandingPage extends Component {
           style={{
             height: "800px",
             backgroundColor: "slategrey",
-            margin: "50px auto 150px auto",
+            margin: "258px auto 150px auto",
             width: "1420px",
             boxShadow: "0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
             padding: "0px 55px",
@@ -97,7 +97,7 @@ class LandingPage extends Component {
         >
           <Parallax
             id="xbox-div"
-            y={[10, 250]}
+            y={[390, 390]}
             x={[-290, 10]}
             style={{ overflow: "hidden" }}
           >

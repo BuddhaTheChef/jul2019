@@ -11,15 +11,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #282c34; */
+  background-color: #282c34;
   height: auto;
   overflow-x: hidden;
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 #main {
   width: 92%;
-  height: 690px;
+  height: 691px;
   background:#09e6bc;
   position: absolute;
   top: 40%;
@@ -28,7 +28,7 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 8px 7px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 9px;
-  margin: 120px 0px;
+  margin: 70px 0px;
 }
 
 .landingPageTitle {
@@ -144,14 +144,20 @@ body {
 
 
 .nav {
-  height: 200px;
-  background: #b2b2b2;
+  height: 60px;
+  background: #282c34;
   overflow: hidden;
-  
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  font-size: 20px;
 }
 
 .nav-list {
-  max-width: 60rem;
+  max-width: 70rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: inherit;
   margin:  0 auto;
   padding: 0;
@@ -174,7 +180,7 @@ body {
 }
 
 .nav-list__link {
-  color: #525252;
+  color: slategray;
   font-size: 1.1rem;
   text-decoration: none;
 }
