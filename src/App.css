@@ -28,6 +28,7 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 8px 7px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 9px;
+  margin: 120px 0px;
 }
 
 .landingPageTitle {
@@ -68,7 +69,7 @@ body {
     width: 1420px;
     left: 4%;
     position: absolute;
-    top: 763px;
+    top: 920px;
     z-index: -1;
     box-shadow: 0 4px 8px 7px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 9px;
@@ -134,4 +135,52 @@ body {
   position: absolute;
   left: 83.333%;
   z-index: -1;
+}
+
+
+
+
+
+
+
+.nav {
+  height: 200px;
+  background: #b2b2b2;
+  overflow: hidden;
+  
+}
+
+.nav-list {
+  max-width: 60rem;
+  height: inherit;
+  margin:  0 auto;
+  padding: 0;
+}
+
+.nav-list__item {
+  display: block;
+  float: left;
+  padding-left: 5.3rem;
+  line-height: 2;
+  text-align: right;
+}
+
+.nav-list__item--active:after {
+  content: '';
+  display: block;
+  background: white;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
+.nav-list__link {
+  color: #525252;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.nav-list__link:hover,
+.nav-list__link--active,
+.nav-list__link--active:hover {
+  color: white;
 }

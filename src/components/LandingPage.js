@@ -15,6 +15,16 @@ class LandingPage extends Component {
           <div class="vl3"></div>
           <div class="vl4"></div>
           <div class="vl5"></div>
+
+          <div class="nav">
+  <ul class="nav-list">
+    <li class="nav-list__item nav-list__item--active"><a href="#">Features</a></li>
+    <li class="nav-list__item"><a href="#">Tech Specs</a></li>
+    <li class="nav-list__item"><a href="#">Design &amp; Technology</a></li>
+    <li class="nav-list__item"><a href="#">Expert Coaching</a></li>
+    <li class="nav-list__item"><a href="#">What's In The Box</a></li>
+  </ul>
+</div>
         <div id="main">
           <Parallax id="logo" y={[-190, 90]} tagOuter="figure">
             <h1 className="landingPageTitle">GAME TIME MACHINE</h1>
