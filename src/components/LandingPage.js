@@ -5,7 +5,7 @@ import PS4Controller from "../assets/ps4controller1.png";
 import Keyboard from "../assets/mechkeyboard.png";
 import Triangles from '../assets/triangles.png';
 import { Parallax } from "react-scroll-parallax";
-
+import  NavBar  from './NavBar';
 class LandingPage extends Component {
   render() {
     return (
@@ -16,15 +16,8 @@ class LandingPage extends Component {
           <div class="vl4"></div>
           <div class="vl5"></div>
 
-          <div class="nav">
-  <ul class="nav-list">
-    <li class="nav-list__item nav-list__item--active"><a href="#" className="nav-list__link">Features</a></li>
-    <li class="nav-list__item"><a href="#" className="nav-list__link">Tech Specs</a></li>
-    <li class="nav-list__item"><a href="#" className="nav-list__link">Design &amp; Technology</a></li>
-    <li class="nav-list__item"><a href="#" className="nav-list__link">Expert Coaching</a></li>
-    <li class="nav-list__item"><a href="#" className="nav-list__link">What's In The Box</a></li>
-  </ul>
-</div>
+        <NavBar />
+
         <div id="main">
           <Parallax id="logo" y={[-190, 90]} tagOuter="figure">
             <h1 className="landingPageTitle">GAME TIME MACHINE</h1>
