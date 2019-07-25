@@ -152,6 +152,7 @@ body {
   position: fixed;
   z-index: 5;
   font-size: 20px;
+  top: 0;
 }
 
 .nav-list {

@@ -8,12 +8,14 @@ import ProfilePage from './components/ProfilePage';
 import Upcoming from './components/UpcomingTitles'
 import {ParallaxProvider} from 'react-scroll-parallax';
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NavBar from './components/NavBar';
 
 function App() {
   return (
 <Router>
 <ParallaxProvider>
     <div className="App">
+    <NavBar/>
     <Switch>
           <Route path="/" exact component={LandingPage} />
           <Route path="/GamesPage" component={GamesPage} />

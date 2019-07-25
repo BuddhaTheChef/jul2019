@@ -5,18 +5,16 @@ import PS4Controller from "../assets/ps4controller1.png";
 import Keyboard from "../assets/mechkeyboard.png";
 import Triangles from '../assets/triangles.png';
 import { Parallax } from "react-scroll-parallax";
-import  NavBar  from './NavBar';
+
 class LandingPage extends Component {
   render() {
     return (
       <div>
-          <div class="vl1"></div>
-          <div class="vl2"></div>
-          <div class="vl3"></div>
-          <div class="vl4"></div>
-          <div class="vl5"></div>
-
-        <NavBar />
+          <div className="vl1"></div>
+          <div className="vl2"></div>
+          <div className="vl3"></div>
+          <div className="vl4"></div>
+          <div className="vl5"></div>
 
         <div id="main">
           <Parallax id="logo" y={[-190, 90]} tagOuter="figure">
