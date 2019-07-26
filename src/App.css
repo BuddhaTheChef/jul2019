@@ -103,35 +103,35 @@ body {
 
 .vl1 {
   border-left: 1px solid whitesmoke;
-  height: 7300px;
+  height: 7700px;
   position: absolute;
   left: 16.666%;
   z-index: -1;
 }
 .vl2 {
   border-left: 1px solid whitesmoke;
-  height: 7300px;
+  height: 7700px;
   position: absolute;
   left: 33.332%;
   z-index: -1;
 }
 .vl3 {
   border-left: 1px solid whitesmoke;
-  height: 7300px;
+  height: 7700px;
   position: absolute;
   left: 49.999%;
   z-index: -1;
 }
 .vl4 {
   border-left: 1px solid whitesmoke;
-  height: 7300px;
+  height: 7700px;
   position: absolute;
   left: 66.666%;
   z-index: -1;
 }
 .vl5 {
   border-left: 1px solid whitesmoke;
-  height: 7300px;
+  height: 7700px;
   position: absolute;
   left: 83.333%;
   z-index: -1;
@@ -146,13 +146,20 @@ body {
 .nav {
   box-shadow: 0 4px 8px 7px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 60px;
-  background: #282c34;
+  background:#282c34;
   overflow: hidden;
   width: 100%;
   position: fixed;
   z-index: 5;
-  font-size: 20px;
   top: 0;
+  transition: 1s;
+  padding: 40px 0px;
+}
+
+.scrolled {
+  position: fixed;
+  background-color:#09e6bc;
+  padding: 0px;
 }
 
 .nav-list {
@@ -182,7 +189,7 @@ body {
 
 .nav-list__link {
   color: slategray;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 

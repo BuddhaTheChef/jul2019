@@ -2,10 +2,29 @@ import React, { Component } from 'react'
 import {Link, withRouter} from 'react-router-dom';
 
 class NavBar extends Component {
+    constructor() {
+        super();
+        this.state = {
+            scrolled: false,
+        }
+    }
+
+    componentDidMount(){ 
+        window.addEventListener('scroll', () => {
+            const isTop = window.scrollY< 100;
+            if(isTop !== true) {this.setState({scrolled: true})}
+            else {this.setState({scrolled: false})}
+        })
+    };
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll')
+    }
+
     render() {
         return (
             <div>
- <div className="nav">
+ <div className={this.state.scrolled ? 'nav scrolled' : 'nav'}>
   <ul className="nav-list">
     <li className="nav-list__item nav-list__item--active"><Link to="/" className="nav-list__link">Home Base</Link></li>
     <li className="nav-list__item"><Link to="/GamesPage" className="nav-list__link">Games</Link></li>
