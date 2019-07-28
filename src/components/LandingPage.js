@@ -439,7 +439,7 @@ class LandingPage extends Component {
           </p>
         </div>
         <Parallax
-        y={[-80, -700]}
+        y={[-80, -900]}
         x={[30, 30]}
           id="triangles1"
           style={{ overflow: "hidden" }}

@@ -163,12 +163,14 @@ body {
 }
 
 .nav-list {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  justify-content: left;
   align-items: center;
   height: inherit;
   margin:  0 auto;
   padding: 0;
+  width: 70%;
+  margin-left: 0px;
 }
 
 .nav-list__item {
@@ -189,7 +191,7 @@ body {
 
 .nav-list__link {
   color: slategray;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
@@ -197,4 +199,30 @@ body {
 .nav-list__link--active,
 .nav-list__link--active:hover {
   color: white;
+}
+
+.search-div {
+  width: 30%;
+  position: relative;
+  top: 9px;
+  display: inline-flex;
+  color:slategray;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon {
+  color: slategray;
+  font-size: 30px;
+}
+
+.search-bar {
+  width: 50%;
+  height: 22px;
+  margin-left: 10px;
+}
+
+input.search-bar {
+ background: slategray;
+ border: none;
 }

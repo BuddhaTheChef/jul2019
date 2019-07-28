@@ -33,6 +33,10 @@ class NavBar extends Component {
     <li className="nav-list__item"><Link to="/ProfilePage" className="nav-list__link">Profile</Link></li>
     <li className="nav-list__item"><Link to="/Upcoming" className="nav-list__link">Give Aways!</Link></li>
   </ul>
+  <div className="search-div">
+  <i className="material-icons search-icon">search</i>
+    <input className="search-bar" />
+  </div>
 </div>
             </div>
         )
