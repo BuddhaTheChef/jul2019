@@ -438,6 +438,18 @@ class LandingPage extends Component {
             erat risus, faucibus finibus orci pharetra eu.
           </p>
         </div>
+        <Parallax
+        y={[-80, -700]}
+        x={[30, 30]}
+          id="triangles1"
+          style={{ overflow: "hidden" }}
+        >
+          <img
+            src={Triangles}
+            alt="triangles"
+            style={{height: '100px', transform: 'rotate(180deg)'}}
+          />
+        </Parallax>
       </div>
     );
   }
