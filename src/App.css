@@ -220,9 +220,16 @@ body {
   width: 50%;
   height: 22px;
   margin-left: 10px;
+  padding-left: 10px;
+  font-size: 15px;
 }
 
 input.search-bar {
  background: slategray;
  border: none;
+ border-radius: 5px;
+}
+
+textarea:focus, input:focus{
+  outline: none;
 }
