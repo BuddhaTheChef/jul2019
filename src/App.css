@@ -236,8 +236,9 @@ textarea:focus, input:focus{
 
 .link {
   color: whitesmoke;
+  text-decoration: none;
 }
 
 .link:hover {
-  color: whitesmoke;
+  color: whiesmoke;
 }
