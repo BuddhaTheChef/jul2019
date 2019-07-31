@@ -233,3 +233,11 @@ input.search-bar {
 textarea:focus, input:focus{
   outline: none;
 }
+
+.link {
+  color: whitesmoke;
+}
+
+.link:hover {
+  color: whitesmoke;
+}
