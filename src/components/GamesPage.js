@@ -33,7 +33,7 @@ function GamesPage() {
                             <button style={{height: '150px', backgroundColor: '#282c34', border: 'none', minWidth:'300px', fontSize: 'large', width:'fit-content'}}>
                                 <Link className="link"
                                 to={{
-                                pathname: "game/" + game.name,
+                                pathname: "Games/" + game.name,
                                 state: {
                                 gameID: game.id
                                 }
