@@ -19,7 +19,7 @@ function GamesPage() {
              setGames(finalArray);
         }
         fetchData();
-    })
+    },[])
 
         return (
             <div style={{marginTop: '60px', height: '-webkit-fill-available'}}>
