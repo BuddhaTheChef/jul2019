@@ -26,7 +26,7 @@ function GameStreams({match, location}) {
           setStreamData(finalArray);
         };
         fetchData();
-      }, []);
+      });
 
         return (
             <div style={{background: '#09e6bc', height: '500px'}}>
@@ -34,6 +34,21 @@ function GameStreams({match, location}) {
                 <li>{match.params.id}</li>
                 <li>{location.state.gameID}</li>
                 <li>{viewers}</li>
+
+                {streamData.map(stream => (
+                    <div>
+                        <div>
+                            <img src={stream.thumbnail_url} alt="Streamer Pic"/>
+                        </div>
+                        <div>
+                        <h5>{stream.user_name}</h5>
+                        <h6>{stream.viewer_count} live viewers</h6>
+                        </div>
+                        <button>
+                            <a href={'https://www.twitch.tv/' + stream.user_name}>Watch {stream.user_name} channel</a>
+                        </button>
+                    </div>
+                ))}
             </div>
         )
 }
