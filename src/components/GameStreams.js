@@ -31,12 +31,12 @@ function GameStreams({match, location}) {
         return (
             <div style={{background: '#09e6bc', height: '500px'}}>
                 <h1 style={{fontSize: '200px'}}>Game stream components</h1>
-                <li>{match.params.id}</li>
-                <li>{location.state.gameID}</li>
-                <li>{viewers}</li>
+                <h1 style={{textAlign: 'center',color: '#09e6bc'}}>{match.params.id}</h1>
+                {/* <li>{location.state.gameID}</li> */}
+                <h3 style={{textAlign: 'center', color:'whitesmoke'}}><span style={{color: '#09e6bc'}}>{viewers}</span> nerds watching {match.params.id}</h3>
 
                 {streamData.map(stream => (
-                    <div>
+                    <div style={{display:'inline-block', width: 'fit-content', background: '#09e6bc', margin: '50px'}}>
                         <div>
                             <img src={stream.thumbnail_url} alt="Streamer Pic"/>
                         </div>
