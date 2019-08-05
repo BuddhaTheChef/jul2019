@@ -6,6 +6,7 @@ class NavBar extends Component {
         super();
         this.state = {
             scrolled: false,
+            streamName: ''
         }
     }
 
@@ -21,6 +22,11 @@ class NavBar extends Component {
         window.removeEventListener('scroll')
     }
 
+    handleChange = event => {
+        this.setState({ streamName: event.target.value });
+      };
+     
+
     render() {
         return (
             <div>
@@ -35,9 +41,16 @@ class NavBar extends Component {
   </ul>
   <div className="search-div">
   <button style={{border: 'none',backgroundColor:'#282c34'}}>
-  <i className="material-icons search-icon">search</i>
+  <a className={'link'} href={'https://www.twitch.tv/' + this.state.streamName} target="_blank" rel="noopener noreferrer">
+    <i className="material-icons search-icon">search</i>
+  </a>
   </button>
-    <input className="search-bar" />
+    <input 
+           className="search-bar" type="text"
+           name="streamName"
+           value={this.state.streamName}
+           onChange={this.handleChange} 
+    />
   </div>
 </div>
             </div>

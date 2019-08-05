@@ -10,6 +10,8 @@ function GamesPage() {
             const result = await api.get('https://api.twitch.tv/helix/games/top')
             console.log(result.data)
 
+
+
             let dataArray = result.data.data
             let finalArray = dataArray.map(game => {
                 let newURL = game.box_art_url.replace('{width}', '300').replace('{height}', '300')
@@ -22,8 +24,7 @@ function GamesPage() {
     },[])
 
         return (
-            <div style={{marginTop: '60px', height: '-webkit-fill-available'}}>
-                <h1>Games Page</h1>
+            <div style={{marginTop: '137px', height: '-webkit-fill-available'}}>
                 <div style={{padding: '60px 40px', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'}}>
                 {games.map(game => (
                     <div key={game.id} style={{display: 'flex', width: '340px', backgroundColor: 'aquamarine', margin: '30px 10px', alignItems: 'center', flexDirection: 'column', borderRadius:'7px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
