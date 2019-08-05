@@ -34,7 +34,9 @@ class NavBar extends Component {
     <li className="nav-list__item"><Link to="/Upcoming" className="nav-list__link">Give Aways!</Link></li>
   </ul>
   <div className="search-div">
+  <button style={{border: 'none',backgroundColor:'#282c34'}}>
   <i className="material-icons search-icon">search</i>
+  </button>
     <input className="search-bar" />
   </div>
 </div>
