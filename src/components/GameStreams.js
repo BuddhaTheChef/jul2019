@@ -41,12 +41,13 @@ function GameStreams({match, location}) {
                             <img src={stream.thumbnail_url} alt="Streamer Pic" style={{height:'284px', width:'444px', padding: '18px 18px 0px 18px'}}/>
                         </div>
                         <button style={{height: '150px', backgroundColor: '#282c34', border: 'none', minWidth:'444px', fontSize: 'large', width:'fit-content', marginTop:'-3px'}}>
+                        <a className={'link'} href={'https://www.twitch.tv/' + stream.user_name} target="_blank" rel="noopener noreferrer">
                         <div>
                         <h5 style={{color: '#09e6bc'}}>{stream.user_name}</h5>
                         <h5 style={{color: 'whitesmoke'}}>{stream.viewer_count} live viewers</h5>
                         </div>
                         
-                            <a className={'link'} href={'https://www.twitch.tv/' + stream.user_name}>Watch {stream.user_name} channel</a>
+                        Watch {stream.user_name} channel</a>
                         </button>
                     </div>
                 ))}

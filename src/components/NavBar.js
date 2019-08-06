@@ -37,10 +37,10 @@ class NavBar extends Component {
     <li className="nav-list__item"><Link to="/Upcoming" className="nav-list__link">Upcoming Titles &amp; Pros</Link></li>
     <li className="nav-list__item"><Link to="/FriendsList" className="nav-list__link">Friends Tech Specs</Link></li>
     <li className="nav-list__item"><Link to="/ProfilePage" className="nav-list__link">Profile</Link></li>
-    <li className="nav-list__item"><Link to="/Upcoming" className="nav-list__link">Give Aways!</Link></li>
+    <li className="nav-list__item"><Link to="/GiveAways" className="nav-list__link">Give Aways!</Link></li>
   </ul>
   <div className="search-div">
-  <button style={{border: 'none',backgroundColor:'#282c34'}}>
+  <button className={this.state.scrolled ? 'scrolled-icon' : 'fixed-icon'}>
   <a className={'link'} href={'https://www.twitch.tv/' + this.state.streamName} target="_blank" rel="noopener noreferrer">
     <i className="material-icons search-icon">search</i>
   </a>

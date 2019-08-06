@@ -216,6 +216,19 @@ body {
   font-size: 30px;
 }
 
+.scrolled-icon {
+  background-color: #09e6bc;
+  border: none;
+  transition: 1s;
+}
+
+.fixed-icon {
+  background-color:#282c34;
+  border: none;
+  transition: 1s;
+}
+
+
 .search-bar {
   width: 50%;
   height: 22px;

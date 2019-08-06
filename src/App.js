@@ -8,6 +8,7 @@ import ProfilePage from './components/ProfilePage';
 import GameStreams from './components/GameStreams'
 import Upcoming from './components/UpcomingTitles';
 import {ParallaxProvider} from 'react-scroll-parallax';
+import GiveAways from './components/GiveAways';
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar';
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/FriendsList" component={FriendsList}/>
           <Route path="/ProfilePage" component={ProfilePage} />
           <Route path="/Upcoming" component={Upcoming} />
+          <Route path="/GiveAways" component={GiveAways}/>
       </Switch>
     </div>
     </ParallaxProvider>
