@@ -30,7 +30,6 @@ function GamesPage() {
                     <div key={game.id} style={{display: 'flex', width: '340px', backgroundColor: 'aquamarine', margin: '30px 10px', alignItems: 'center', flexDirection: 'column', borderRadius:'7px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
                         <img src={game.box_art_url} alt={game.name}  style={{paddingTop: '20px'}}/>
                         <div>
-                            {/* <h4 style={{textAlign: "center"}}>{game.name}</h4> */}
                             <button style={{height: '150px', backgroundColor: '#282c34', border: 'none', minWidth:'300px', fontSize: 'large', width:'fit-content'}}>
                                 <Link className="link"
                                 to={{

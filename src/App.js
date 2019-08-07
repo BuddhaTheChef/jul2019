@@ -11,6 +11,8 @@ import {ParallaxProvider} from 'react-scroll-parallax';
 import GiveAways from './components/GiveAways';
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar';
+import SignUp from './components/SignUp';
+import SignIn from './components/SignIn';
 
 function App() {
   return (
@@ -26,6 +28,9 @@ function App() {
           <Route path="/ProfilePage" component={ProfilePage} />
           <Route path="/Upcoming" component={Upcoming} />
           <Route path="/GiveAways" component={GiveAways}/>
+          <Route path="/sign-up" component={SignUp}/>
+          <Route path="/sign-in" component={SignIn}/>
+          <Route/>
       </Switch>
     </div>
     </ParallaxProvider>
