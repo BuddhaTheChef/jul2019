@@ -35,12 +35,11 @@ class SignIn extends Component {
       <div
         style={{
           marginTop: "60px",
-          height: "-webkit-fill-available",
           display: "flex",
-          justifyContent: "center",
           alignItems: "center"
         }}
       >
+      <div style={{backgroundColor: '#5ED0C0', height: '-webkit-fill-available', width: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>SVG HERE</div>
         <div className="FormCenter">
           <div className="FormTitle">
             <NavLink

@@ -307,6 +307,8 @@ textarea:focus, input:focus{
 
 .FormCenter {
   margin-bottom: 100px;
+  margin-left: 280px;
+  margin-top: 150px;
 }
 
 .FormTitle {
