@@ -306,15 +306,18 @@ textarea:focus, input:focus{
 }
 
 .FormCenter {
-  margin-bottom: 100px;
-  margin-left: 280px;
-  margin-top: 150px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
 .FormTitle {
   color: #707C8B;
   font-weight: 300;
-  margin-bottom: 50px;
+  position: absolute;
+  top: 225px;
+  right: 235px;
 }
 
 .FormTitle__Link {
@@ -337,6 +340,7 @@ textarea:focus, input:focus{
 
 .FormField {
   margin-bottom: 40px;
+  margin-left: 50px;
 }
 
 .FormField__Label {

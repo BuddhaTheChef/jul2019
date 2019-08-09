@@ -42,7 +42,7 @@ class SignUp extends Component {
           alignItems: "center"
         }}
       >
-      <div style={{backgroundColor: '#5ED0C0', height: '-webkit-fill-available', width: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>SVG HERE</div>
+      <div style={{backgroundColor: '#5ED0C0', height: '-webkit-fill-available', width: '60%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>SVG HERE</div>
         <div className="FormCenter">
           <div className="FormTitle">
             <NavLink
@@ -63,7 +63,7 @@ class SignUp extends Component {
             </NavLink>
           </div>
           <form onSubmit={this.handleSubmit} className="FormFields">
-            <div className="FormField">
+            <div className="FormField" style={{marginTop: '60px'}}>
               <label className="FormField__Label" htmlFor="name">
                 Full Name
               </label>
