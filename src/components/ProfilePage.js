@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux';
 import ProjectList from './ProjectList';
 import  CreateProject  from './CreateProject';
+import {firestoreConnect} from 'react-redux-firebase';
+import { compose } from 'redux';
 
 class ProfilePage extends Component {
     render() {
@@ -18,9 +20,15 @@ class ProfilePage extends Component {
 }
 
 const mapStateToProps = (state) => {
+    console.log(state);
     return {
-        projects: state.project.projects
+        projects: state.firestore.ordered.projects
     }
 }
 
-export default connect(mapStateToProps)(ProfilePage);
+export default compose(
+    connect(mapStateToProps),
+    firestoreConnect([
+        {collection: 'projects'}
+    ])
+)(ProfilePage);
