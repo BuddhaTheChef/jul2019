@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux';
 import ProjectList from './ProjectList';
+import  CreateProject  from './CreateProject';
 
 class ProfilePage extends Component {
     render() {
@@ -9,6 +10,7 @@ class ProfilePage extends Component {
         return (
             <div style={{marginTop: '150px', height: '-webkit-fill-available', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
                 <h1 style={{marginBottom: '100px', color: 'whitesmoke'}}>ProfilePage</h1>
+                <CreateProject />
                 <ProjectList projects={projects} />
             </div>
         )
