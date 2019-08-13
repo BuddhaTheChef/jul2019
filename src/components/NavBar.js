@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link, NavLink, withRouter } from "react-router-dom";
+import { connect } from 'react-redux';
 
 class NavBar extends Component {
   constructor() {
@@ -109,4 +110,11 @@ class NavBar extends Component {
   }
 }
 
-export default withRouter(NavBar);
+const mapStateToProps = (state) => {
+  console.log(state); 
+  return {
+
+  }
+}
+ 
+export default withRouter(connect(mapStateToProps)(NavBar));
