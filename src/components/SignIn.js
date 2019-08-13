@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { connect } from 'react-redux';
+import { signIn } from '../store/actions/authActions';
 
 class SignIn extends Component {
   constructor() {
@@ -29,8 +31,10 @@ class SignIn extends Component {
 
     console.log("The form was submitted with the following data:");
     console.log(this.state);
+    this.props.signIn(this.state);
   }
   render() {
+    const { authError } = this.props;
     return (
       <div
         style={{
@@ -98,9 +102,22 @@ class SignIn extends Component {
             </div>
           </form>
         </div>
+          {authError ? <p>{authError}</p> : null}
       </div>
     );
   }
 }
 
-export default SignIn;
+const mapStateToProps = (state) => {
+  return {
+    authError: state.auth.authError
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    signIn: (creds) => dispatch(signIn(creds))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(SignIn);
