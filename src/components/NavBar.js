@@ -31,6 +31,8 @@ class NavBar extends Component {
   };
 
   render() {
+    const { auth } = this.props;
+    console.log(auth)
     return (
       <div>
         <div className={this.state.scrolled ? "nav scrolled" : "nav"}>
@@ -50,21 +52,33 @@ class NavBar extends Component {
                 Upcoming Titles &amp; Pros
               </Link>
             </li>
+            {auth.uid ?
             <li className="nav-list__item">
               <Link to="/FriendsList" className="nav-list__link">
                 Friends Tech Specs
               </Link>
             </li>
+            :
+            <h1 style={{display: 'none', overflow: 'hidden'}}>nope</h1>
+            }
+            {auth.uid ?
             <li className="nav-list__item">
               <Link to="/ProfilePage" className="nav-list__link">
                 Profile
               </Link>
             </li>
+             :
+             <h1 style={{display: 'none', overflow: 'hidden'}}>nope</h1>
+             }
+             {auth.uid ?
             <li className="nav-list__item">
               <Link to="/GiveAways" className="nav-list__link">
                 Give Aways!
               </Link>
             </li>
+            :
+            <h1 style={{display: 'none', overflow: 'hidden'}}>nope</h1>
+             }
           </ul>
           <div className="search-div">
             <button
@@ -111,9 +125,8 @@ class NavBar extends Component {
 }
 
 const mapStateToProps = (state) => {
-  console.log(state); 
   return {
-
+    auth: state.firebase.auth 
   }
 }
  
