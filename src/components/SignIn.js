@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { connect } from 'react-redux';
 import { signIn } from '../store/actions/authActions';
+import {signOut} from '../store/actions/authActions';
 
 class SignIn extends Component {
   constructor() {
@@ -101,6 +102,7 @@ class SignIn extends Component {
               </Link>
             </div>
           </form>
+          <a href="/" onClick={this.props.signOut}> Log Out</a>
         </div>
           {authError ? <p>{authError}</p> : null}
       </div>
@@ -116,7 +118,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    signIn: (creds) => dispatch(signIn(creds))
+    signIn: (creds) => dispatch(signIn(creds)),
+    signOut: () => dispatch(signOut())
   }
 }
 
