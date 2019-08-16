@@ -70,15 +70,11 @@ class NavBar extends Component {
              :
              <h1 style={{display: 'none', overflow: 'hidden'}}>nope</h1>
              }
-             {auth.uid ?
             <li className="nav-list__item">
               <Link to="/GiveAways" className="nav-list__link">
                 Give Aways!
               </Link>
             </li>
-            :
-            <h1 style={{display: 'none', overflow: 'hidden'}}>nope</h1>
-             }
           </ul>
           <div className="search-div">
             <button
@@ -101,6 +97,8 @@ class NavBar extends Component {
               onChange={this.handleChange}
             />
           </div>
+          {auth.uid ? <h1 style={{display: 'none', overflow: 'hidden'}}>hidden</h1>
+          :
           <div className="PageSwitcher">
             <NavLink
               to="/sign-in"
@@ -118,6 +116,7 @@ class NavBar extends Component {
               Sign Up
             </NavLink>
           </div>
+          }
         </div>
       </div>
     );

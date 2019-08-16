@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import { Redirect } from 'react-router-dom';
+import {connect} from 'react-redux';
+ 
 class SignUp extends Component {
   constructor() {
     super();
@@ -34,7 +36,9 @@ class SignUp extends Component {
   }
 
   render() {
-    return (
+    const { auth } = this.props;
+    if(auth.uid) return <Redirect to='/' />
+    return ( 
       <div
         style={{
           marginTop: "60px",
@@ -135,4 +139,10 @@ class SignUp extends Component {
   }
 }
 
-export default SignUp;
+const mapStateToProps = (state) => {
+  return {
+    auth: state.firebase.auth
+  }
+}
+
+export default connect(mapStateToProps)(SignUp);
