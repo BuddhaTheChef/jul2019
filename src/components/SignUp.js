@@ -70,7 +70,7 @@ class SignUp extends Component {
             </NavLink>
           </div>
           <form onSubmit={this.handleSubmit} className="FormFields">
-            <div className="FormField">
+            <div className="FormField" style={{marginTop: '75px'}}>
               <label className="FormField__Label" htmlFor="firstName">
                 First Name
               </label>

@@ -104,7 +104,6 @@ class SignIn extends Component {
               </Link>
             </div>
           </form>
-          <a href="/" onClick={this.props.signOut}> Log Out</a>
         </div>
           {authError ? <p>{authError}</p> : null}
       </div>

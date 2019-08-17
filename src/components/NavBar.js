@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link, NavLink, withRouter } from "react-router-dom";
 import { connect } from 'react-redux';
+import {signOut} from '../store/actions/authActions';
 
 class NavBar extends Component {
   constructor() {
@@ -97,6 +98,11 @@ class NavBar extends Component {
               onChange={this.handleChange}
             />
           </div>
+          {auth.uid ?  
+          <button className="logout-btn"><a href="/" onClick={this.props.signOut}> Log Out</a></button>
+          :
+          <h1 style={{display: 'none', overflow: 'hidden'}}>hidden</h1>
+          }
           {auth.uid ? <h1 style={{display: 'none', overflow: 'hidden'}}>hidden</h1>
           :
           <div className="PageSwitcher">
@@ -128,5 +134,12 @@ const mapStateToProps = (state) => {
     auth: state.firebase.auth 
   }
 }
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    signOut: () => dispatch(signOut())
+  }
+}
+
  
-export default withRouter(connect(mapStateToProps)(NavBar));
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(NavBar));
