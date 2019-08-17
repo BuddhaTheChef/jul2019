@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Redirect } from 'react-router-dom';
 import {connect} from 'react-redux';
+import { signUp } from '../store/actions/authActions';
  
 class SignUp extends Component {
   constructor() {
@@ -10,7 +11,8 @@ class SignUp extends Component {
     this.state = {
       email: "",
       password: "",
-      name: "",
+      firstName: "",
+      lastName: "",
       hasAgreed: false
     };
 
@@ -33,6 +35,7 @@ class SignUp extends Component {
 
     console.log("The form was submitted with the following data:");
     console.log(this.state);
+    this.props.signUp(this.state);
   }
 
   render() {
@@ -67,17 +70,31 @@ class SignUp extends Component {
             </NavLink>
           </div>
           <form onSubmit={this.handleSubmit} className="FormFields">
-            <div className="FormField" style={{marginTop: '60px'}}>
-              <label className="FormField__Label" htmlFor="name">
-                Full Name
+            <div className="FormField">
+              <label className="FormField__Label" htmlFor="firstName">
+                First Name
               </label>
               <input
                 type="text"
-                id="name"
+                id="firstName"
                 className="FormField__Input"
-                placeholder="Enter your full name"
-                name="name"
-                value={this.state.name}
+                placeholder="Enter your first name"
+                name="firstName"
+                value={this.state.firstName}
+                onChange={this.handleChange}
+              />
+            </div>
+            <div className="FormField">
+              <label className="FormField__Label" htmlFor="lastNname">
+                Last Name
+              </label>
+              <input
+                type="text"
+                id="lastName"
+                className="FormField__Input"
+                placeholder="Enter your last name"
+                name="lastName"
+                value={this.state.lastName}
                 onChange={this.handleChange}
               />
             </div>
@@ -145,4 +162,10 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps)(SignUp);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    signUp: (newUser) => dispatch(signUp(newUser))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(SignUp);
