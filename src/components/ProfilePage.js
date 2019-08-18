@@ -9,11 +9,11 @@ import {signOut} from '../store/actions/authActions';
 class ProfilePage extends Component {
     render() {
         console.log(this.props)
-        const {projects} = this.props;
+        const {projects, profile} = this.props;
         return (
-            <div style={{marginTop: '150px', height: '-webkit-fill-available', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-            <a href="/" onClick={this.props.signOut}> Log Out</a>
-                <h1 style={{marginBottom: '100px', color: 'whitesmoke'}}>ProfilePage</h1>
+            <div style={{marginTop: '200px', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+            <div style={{ background: '#09e6bc', width: '82px', borderRadius: '50%', display: 'flex', justifyContent: 'center'}}><h1>{profile.initals}</h1></div>
+                <h1 style={{marginBottom: '50px', color: 'whitesmoke'}}> {profile.firstName} {profile.lastName}'s Time Machine</h1>
                 <CreateProject />
                 <ProjectList projects={projects} />
             </div>
@@ -24,7 +24,8 @@ class ProfilePage extends Component {
 const mapStateToProps = (state) => {
     console.log(state);
     return {
-        projects: state.firestore.ordered.projects
+        projects: state.firestore.ordered.projects,
+        profile: state.firebase.profile
     }
 }
 
