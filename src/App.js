@@ -13,6 +13,7 @@ import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
+import ProjectSummary from './components/ProjectSummary';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/GamesPage" component={GamesPage} />
           <Route path="/FriendsList" component={FriendsList}/>
           <Route path="/ProfilePage" component={ProfilePage} />
+          <Route path="/project/:id" component={ProjectSummary}/>
           <Route path="/Upcoming" component={Upcoming} />
           <Route path="/GiveAways" component={GiveAways}/>
           <Route path="/sign-up" component={SignUp}/>
