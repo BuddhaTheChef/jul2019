@@ -11,6 +11,7 @@ class ProjectSummary extends Component {
                             <h1 style={{color:'#09e6bc', display: 'inline-flex'}}>{project.title} &nbsp; - &nbsp; <span><h1 style={{fontSize: 18, fontStyle: 'oblique'}}>({project.gamerTag})</h1></span></h1>
                             <h2 style={{color:'whitesmoke', font: 'italic',fontWeight: 200, fontStyle: 'oblique'}}>{project.content}</h2>
                             <p>Posted by {project.authorFirstName} {project.authorLastName} on <span>{moment(project.createdAt.toDate()).calendar()}</span></p> 
+                            <p>Created on: {moment(project.dateCreated).calendar()}</p>
                         </div>
             :
             <h1>Loading...</h1>

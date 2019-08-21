@@ -6,7 +6,8 @@ class CreateProject extends Component {
     state = {
         title:'',
         gamerTag: '',
-        content: ''
+        content: '',
+        dateCreated: ''
     }
 
     handleChange = (e) => {
@@ -36,6 +37,10 @@ class CreateProject extends Component {
                     <div>
                         <label className="FormField__Label" style={{marginLeft: '60px'}}>Content</label>
                         <input id='content' onChange={this.handleChange} className="FormField__Input" style={{marginLeft: '40px', marginBottom: '30px'}}/>
+                    </div>
+                    <div>
+                        <label className="FormField__Label" style={{marginLeft: '60px'}}>Date Created</label>
+                        <input id='dateCreated' onChange={this.handleChange} className="FormField__Input" style={{marginLeft: '40px', marginBottom: '30px'}} type='date'/>
                     </div>
                     <div className="FormField">
                        <button className='FormField__Button mr-20'>Create</button>
