@@ -1,9 +1,11 @@
 import React from 'react'
 import {Link, withRouter } from 'react-router-dom';
 import moment from 'moment'
+import { connect } from 'react-redux'
 
-const ProjectList = ({projects}) => {
+const ProjectList = ({projects,auth}) => {
     console.log(projects)
+    console.log(auth)
         return (
             <div>
                 {projects && projects.map(project => {
@@ -22,4 +24,13 @@ const ProjectList = ({projects}) => {
         )
 }
 
-export default withRouter(ProjectList);
+const mapStateToProps = (state) => {
+    console.log(state);
+    return {
+        projects: state.firestore.ordered.projects,
+        profile: state.firebase.profile,
+        auth: state.firebase.auth.uid
+    }
+}
+
+export default withRouter(connect(mapStateToProps)(ProjectList));

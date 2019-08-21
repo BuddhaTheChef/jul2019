@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import moment from 'moment'
+import { connect } from 'react-redux'
  
 class ProjectSummary extends Component {
     render() {
@@ -21,4 +22,14 @@ class ProjectSummary extends Component {
     }
 }
 
-export default ProjectSummary;
+const mapStateToProps = (state) => {
+    console.log(state);
+    return {
+        projects: state.firestore.ordered.projects,
+        profile: state.firebase.profile,
+        auth: state.firebase.auth.uid
+    }
+}
+
+
+export default connect(mapStateToProps)(ProjectSummary);

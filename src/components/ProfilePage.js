@@ -9,13 +9,13 @@ import {signOut} from '../store/actions/authActions';
 class ProfilePage extends Component {
     render() {
         console.log(this.props)
-        const {projects, profile} = this.props;
+        const {projects, profile, auth} = this.props;
         return (
             <div style={{marginTop: '200px', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
             <div style={{ background: '#09e6bc', width: '82px', borderRadius: '50%', display: 'flex', justifyContent: 'center'}}><h1>{profile.initals}</h1></div>
                 <h1 style={{marginBottom: '50px', color: 'whitesmoke'}}> {profile.firstName} {profile.lastName}'s Time Machine</h1>
                 <CreateProject />
-                <ProjectList projects={projects} />
+                <ProjectList projects={projects} auth={auth} />
             </div>
         )
     }
