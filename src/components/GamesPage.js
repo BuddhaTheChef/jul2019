@@ -25,6 +25,11 @@ function GamesPage() {
 
         return (
             <div style={{marginTop: '137px', height: '-webkit-fill-available'}}>
+            <div className="vl1-gp"></div>
+            <div className="vl2-gp"></div>
+            <div className="vl3-gp"></div>
+            <div className="vl4-gp"></div>
+            <div className="vl5-gp"></div>
                 <div style={{padding: '60px 40px', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'}}>
                 {games.map(game => (
                     <div key={game.id} style={{display: 'flex', width: '340px', backgroundColor: 'aquamarine', margin: '30px 10px', alignItems: 'center', flexDirection: 'column', borderRadius:'7px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>

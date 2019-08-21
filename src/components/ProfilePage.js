@@ -9,13 +9,18 @@ import {signOut} from '../store/actions/authActions';
 class ProfilePage extends Component {
     render() {
         console.log(this.props)
-        const {projects, profile, auth} = this.props;
+        const {projects, profile} = this.props;
         return (
-            <div style={{marginTop: '200px', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
-            <div style={{ background: '#09e6bc', width: '82px', borderRadius: '50%', display: 'flex', justifyContent: 'center'}}><h1>{profile.initals}</h1></div>
-                <h1 style={{marginBottom: '50px', color: 'whitesmoke'}}> {profile.firstName} {profile.lastName}'s Time Machine</h1>
-                <CreateProject />
-                <ProjectList projects={projects} auth={auth} />
+            <div style={{marginTop: '142px', display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+            <div className="vl1-gp"></div>
+            <div className="vl2-gp"></div>
+            <div className="vl3-gp"></div>
+            <div className="vl4-gp"></div>
+            <div className="vl5-gp"></div>
+            <div style={{ background: '#09e6bc', width: '82px', borderRadius: '50%', display: 'flex', justifyContent: 'center', marginTop: '60px'}}><h1>{profile.initals}</h1></div>
+            <h1 style={{marginBottom: '50px', color: 'whitesmoke'}}> {profile.firstName} {profile.lastName}'s Time Machine</h1>
+            <CreateProject />
+            <ProjectList projects={projects} />
             </div>
         )
     }
