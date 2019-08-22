@@ -24,7 +24,7 @@ class CreateProject extends Component {
     render() {
         return (
             <div style={{background: '#09e6bc', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '580px'}}>
-                <form onSubmit={this.handleSubmit} className='FormFields' style={{height: '460px', width:'40%', background:'slategray', display: 'flex', justifyContent: 'center', flexDirection: 'column', borderRadius: '10px'}}>
+                <form onSubmit={this.handleSubmit} className='FormFields' style={{height: '460px', width:'40%', background:'slategray', display: 'flex', justifyContent: 'center', flexDirection: 'column', borderRadius: '10px', boxShadow: '0px 3px 14px -2px rgba(0,0,0,0.85)'}}>
                     <h5 style={{textAlign: 'center', fontSize: '20px', color: 'whitesmoke'}}>Create New Project</h5>
                     <div>
                         <label className="FormField__Label" style={{marginLeft: '60px'}}>Title</label>
