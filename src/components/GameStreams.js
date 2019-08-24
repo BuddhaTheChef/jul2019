@@ -30,6 +30,11 @@ function GameStreams({match, location}) {
 
         return (
             <div style={{background: '#09e6bc', height: '500px'}}>
+             <div className="vl1-gp-2"></div>
+            <div className="vl2-gp-2"></div>
+            <div className="vl3-gp-2"></div>
+            <div className="vl4-gp-2"></div>
+            <div className="vl5-gp-2"></div>
                 <h1 style={{fontSize: '200px'}}>Top Game streams</h1>
                 <h1 style={{textAlign: 'center',color: '#09e6bc'}}>{match.params.id}</h1>
                 {/* <li>{location.state.gameID}</li> */}

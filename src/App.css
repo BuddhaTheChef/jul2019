@@ -175,6 +175,41 @@ body {
 }
 
 
+.vl1-gp-2 {
+  border-left: 1px solid whitesmoke;
+  height: 4600px;
+  position: absolute;
+  left: 16.666%;
+  z-index: -1;
+}
+.vl2-gp-2 {
+  border-left: 1px solid whitesmoke;
+  height: 4600px;
+  position: absolute;
+  left: 33.332%;
+  z-index: -1;
+}
+.vl3-gp-2 {
+  border-left: 1px solid whitesmoke;
+  height: 4600px;
+  position: absolute;
+  left: 49.999%;
+  z-index: -1;
+}
+.vl4-gp-2 {
+  border-left: 1px solid whitesmoke;
+  height: 4600px;
+  position: absolute;
+  left: 66.666%;
+  z-index: -1;
+}
+.vl5-gp-2 {
+  border-left: 1px solid whitesmoke;
+  height: 4600px;
+  position: absolute;
+  left: 83.333%;
+  z-index: -1;
+}
 
 
 
