@@ -456,3 +456,24 @@ textarea:focus, input:focus{
   font-weight: 200;
   font-size: 13px;
 }
+
+.proj-list {
+  background-color: slategray;
+   padding: 30px;
+   margin: 205px 0px;
+   border-radius: 10px; 
+   width: 900px;
+   box-shadow:1px 6px 12px 2px rgba(0,0,0,0.51);
+}
+
+.bigLink:nth-child(odd) {
+  background-color: yellow;
+  left: 300px;
+  position: relative;
+}
+
+.bigLink:nth-child(even) {
+  background-color: yellow;
+  right: 300px;
+  position: relative;
+}
