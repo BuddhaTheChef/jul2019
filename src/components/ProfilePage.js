@@ -17,6 +17,7 @@ class ProfilePage extends Component {
             <div className="vl3-gp"></div>
             <div className="vl4-gp"></div>
             <div className="vl5-gp"></div>
+            <div style={{position: 'absolute', height: '200px', width: '200px', background: '#09e6bc', right: '315px', top: '160px', display: 'flex', alignItems: 'center', justifyContent: 'center', border: 'slategray 5px solid', borderRadius: '10px'}}>Profile Picture</div>
             <div style={{ background: '#09e6bc', width: '82px', borderRadius: '50%', display: 'flex', justifyContent: 'center', marginTop: '60px'}}><h1>{profile.initals}</h1></div>
             <h1 style={{marginBottom: '50px', color: 'whitesmoke'}}> {profile.firstName} {profile.lastName}'s Time Machine</h1>
             <CreateProject />
