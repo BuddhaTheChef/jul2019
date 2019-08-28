@@ -305,11 +305,13 @@ body {
   margin-left: 10px;
   padding-left: 10px;
   font-size: 15px;
+  color: black;
 }
 
 input.search-bar {
  background: slategray;
  border: none;
+ color:black;
  border-radius: 5px;
 }
 

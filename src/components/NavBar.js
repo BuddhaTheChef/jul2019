@@ -92,11 +92,13 @@ class NavBar extends Component {
             </button>
             <input
               className="search-bar"
+              placeholder='Search your Streamers...'
               type="text"
               name="streamName"
               value={this.state.streamName}
               onChange={this.handleChange}
             />
+            <div style={{marginLeft: '10px', color: 'red'}}><h3>LIVE NOW</h3></div>
           </div>
           {auth.uid ?  
           <button className="logout-btn"><a href="/" onClick={this.props.signOut}> Log Out</a></button>
