@@ -450,6 +450,9 @@ class LandingPage extends Component {
             style={{height: '100px', transform: 'rotate(180deg)'}}
           />
         </Parallax>
+        <footer className="mainFooterDiv">
+        <h1>Setup for foooter</h1>
+      </footer>
       </div>
     );
   }
