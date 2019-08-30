@@ -5,6 +5,7 @@ import PS4Controller from "../assets/ps4controller1.png";
 import Keyboard from "../assets/mechkeyboard.png";
 import Triangles from '../assets/triangles.png';
 import { Parallax } from "react-scroll-parallax";
+import Footer from './Footer';
 
 class LandingPage extends Component {
   render() {
@@ -451,7 +452,7 @@ class LandingPage extends Component {
           />
         </Parallax>
         <footer className="mainFooterDiv">
-        <h1>Setup for foooter</h1>
+        <Footer />
       </footer>
       </div>
     );
