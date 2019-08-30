@@ -8,13 +8,14 @@ class Footer extends Component {
       <div class="footer-above">
         <div class="container">
           <div class="row">
-            <div class="footer-col col-md-4">
-              <h3>Location</h3>
-              <p> 98121
-                <br/>Seattle, Washington  </p>
+            <div class="footer-col col-md-4 location">
+              <h3 className="footer-header">Location</h3>
+              <p> 98121 </p>
+              <br/>
+               <p style={{margin: '0'}}>Seattle, Washington</p>
             </div>
-            <div class="footer-col col-md-4">
-              <h3>Catch me here</h3>
+            <div class="footer-col col-md-4 catch-me">
+              <h3 className="footer-header">Catch me here</h3>
               <ul class="list-inline">
                 <li class="list-inline-item">
                   <a class="btn-social btn-outline" href="https://www.facebook.com/aj.wietechaii?ref=bookmarks">
@@ -22,7 +23,7 @@ class Footer extends Component {
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="#">
+                  <a class="btn-social btn-outline" href="https://www.google.com">
                     <i class="fa fa-fw fa-google-plus"></i>
                   </a>
                 </li>
@@ -39,9 +40,9 @@ class Footer extends Component {
 
               </ul>
             </div>
-            <div class="footer-col col-md-4">
-              <h3>Other</h3>
-              <p>Here's my <a href="mailto:ajwietechaii@gmail.com">Email</a> and Catch me on twitch as well, chat with me about anything! You can find me on
+            <div class="footer-col col-md-4 other-footer">
+              <h3 className="footer-header" >Other</h3>
+              <p style={{lineHeight: '1.5'}}>Here's my <a href="mailto:ajwietechaii@gmail.com">Email</a> and Catch me on twitch as well, chat with me about anything! You can find me on
                 <a href="https://go.twitch.tv/buddhathechef/">Buddha The Chef</a></p>
             </div>
           </div>
@@ -49,7 +50,7 @@ class Footer extends Component {
       </div>
       <div class="footer-below">
         <div class="container">
-          <div class="row">
+          <div class="row-2">
             <div class="col-lg-12">
               Copyright &copy; ajwietecha 2017
             </div>
