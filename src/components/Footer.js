@@ -42,8 +42,8 @@ class Footer extends Component {
             </div>
             <div class="footer-col col-md-4 other-footer">
               <h3 className="footer-header" >Other</h3>
-              <p style={{lineHeight: '1.5'}}>Here's my <a href="mailto:ajwietechaii@gmail.com">Email</a> and Catch me on twitch as well, chat with me about anything! You can find me on
-                <a href="https://go.twitch.tv/buddhathechef/">Buddha The Chef</a></p>
+              <p style={{lineHeight: '1.5'}}>Here's my <a style={{textDecoration: 'none', color: 'whitesmoke'}} href="mailto:ajwietechaii@gmail.com">Email</a> and Catch me on twitch as well, chat with me about anything! You can find me on
+                <a style={{textDecoration: 'none', color: 'whitesmoke'}}  href="https://go.twitch.tv/buddhathechef/"> Buddha The Chef</a></p>
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ class Footer extends Component {
         <div class="container">
           <div class="row-2">
             <div class="col-lg-12">
-              Copyright &copy; ajwietecha 2017
+              Copyright &copy; ajwietecha 2019
             </div>
           </div>
         </div>
