@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
+import Footer from "./Footer";
 
 class GiveAways extends Component {
   render() {
@@ -21,7 +22,7 @@ class GiveAways extends Component {
           <h1>GiveAways!!</h1>
         </div>
         <footer className="mainFooterDiv">
-          <h1>Setup for foooter</h1>
+          <Footer/>
         </footer>
       </div>
     );

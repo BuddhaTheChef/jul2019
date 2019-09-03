@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import api from "./api";
+import Footer from "./Footer";
 
 function GameStreams({ match, location }) {
   const [streamData, setStreamData] = useState([]);
@@ -102,7 +103,7 @@ function GameStreams({ match, location }) {
         ))}
       </div>
       <footer className="mainFooterDiv">
-        <h1>Setup for foooter</h1>
+        <Footer/>
       </footer>
     </div>
   );

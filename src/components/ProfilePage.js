@@ -6,6 +6,7 @@ import { firestoreConnect } from "react-redux-firebase";
 import { compose } from "redux";
 import { signOut } from "../store/actions/authActions";
 import ProfilePic from "../assets/profilePic.jpg";
+import Footer from "./Footer";
 
 class ProfilePage extends Component {
   render() {
@@ -61,7 +62,7 @@ class ProfilePage extends Component {
         <CreateProject />
         <ProjectList projects={projects} />
         <footer className="mainFooterDiv">
-          <h1>Setup for foooter</h1>
+          <Footer/>
         </footer>
       </div>
     );

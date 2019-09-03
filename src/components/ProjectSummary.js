@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import moment from "moment";
 import { connect } from "react-redux";
+import Footer from "./Footer";
 
 class ProjectSummary extends Component {
   render() {
@@ -50,7 +51,7 @@ class ProjectSummary extends Component {
           <h1>Loading...</h1>
         )}
         <footer className="mainFooterDiv">
-          <h1>Setup for foooter</h1>
+          <Footer/>
         </footer>
       </div>
     );

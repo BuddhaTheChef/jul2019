@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import api from "../components/api";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function GamesPage() {
   const [games, setGames] = useState([]);
@@ -86,7 +87,7 @@ function GamesPage() {
         ))}
       </div>
       <footer className="mainFooterDiv">
-        <h1>Setup for foooter</h1>
+        <Footer />
       </footer>
     </div>
   );
