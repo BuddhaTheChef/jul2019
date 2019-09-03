@@ -25,3 +25,5 @@ yarn-error.log*
 api.js
 
 fbconfig.js
+
+.env
