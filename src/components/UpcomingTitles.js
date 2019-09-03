@@ -24,13 +24,17 @@ class UpcomingTitles extends Component {
             height: "-webkit-fill-available",
           }}
         >
-        <div>
+        <div style={{display: 'inline-flex', flexWrap: 'wrap', justifyContent: 'center'}}>
         { this.state.teams.map(team => 
-        <div style={{width: '400px', height: 'inherit', background: 'slategrey', justifyContent:'space-around', display: 'flex', flexDirection: 'column', margin: '50px'}}>
+        <div style={{width: '400px', height: 'inherit', background: 'slategrey', justifyContent:'space-around', display: 'inline-flex', flexDirection: 'column', margin: '50px', borderRadius: '10px'}}>
         <img src={team.image_url} alt='No Team Logo'  style={{height: '300px'}}/>
+        <div style={{background: '#09e6bc', color: 'whitesmoke'}}>
         Team Name: {team.name}
-        Plays: {team.current_videogame.name}
+        <br/>
+        Video Game: {team.current_videogame.name}
+        <br/>
         Players: {team.players.map(player => <div>{player.name}</div> )}
+        </div>
         </div>)}
         </div>
         </div>
