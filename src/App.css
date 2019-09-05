@@ -328,7 +328,24 @@ textarea:focus, input:focus{
   color: whiesmoke;
 }
 
+.link2 {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all .3s;
+  width: 25%; 
+  height: 450px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background: #09e6bc;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
+}
 
+.link2:hover {
+  color: whitesmoke;
+  transform: scale(1.02);
+}
 
 
 

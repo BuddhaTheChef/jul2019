@@ -13,6 +13,7 @@ import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
+import ProTeams from './components/ProTeams';
 import ProjectSummary from './components/ProjectSummary';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <Switch>
           <Route path="/" exact component={LandingPage} />
           <Route path="/Games/:id" component={GameStreams} />
+          <Route path="/ProTeams/:id" component={ProTeams} />
           <Route path="/GamesPage" component={GamesPage} />
           <Route path="/FriendsList" component={FriendsList}/>
           <Route path="/ProfilePage" component={ProfilePage} />
