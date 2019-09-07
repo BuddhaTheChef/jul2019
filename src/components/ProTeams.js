@@ -37,7 +37,7 @@ class ProTeams extends Component {
                     borderRadius: "10px",
                     padding: "12px"}}>
                         <div><img src={team.image_url} alt="League team logo" style={{height: '200px'}}/></div>
-                        <div>{team.name}</div>
+                        <div style={{fontSize: '30px', fontWeight: 'bold'}}>{team.name}</div>
                         {/* <div>{team.players}</div> */}
                     </div>
                 ))}
@@ -48,7 +48,8 @@ class ProTeams extends Component {
                     <h1>Pro Players</h1>
                 </div>
                 {this.state.lolplayers.map(player => (
-                    <div style={{   width: "400px",
+                    <div style={{   
+                    width: "400px",
                     height: "inherit",
                     background: "slategrey",
                     justifyContent: "space-around",
@@ -59,11 +60,21 @@ class ProTeams extends Component {
                     padding: "12px"}}>
 
                     {player.image_url ? 
-                        <div>
+                        <div style={{display: 'flex'}}>
                         <div><img src={player.image_url} alt="League team logo" style={{height: '200px'}}/></div>
+                        <div style={{    
+                            width: '50%',
+                            display: 'flex',
+                            justifyContent: 'space-around',
+                            alignItems: 'center',
+                            flexDirection: 'column',
+                            fontWeight: 'bold',
+                            fontSize: '20px'
+                            }}>
                         <div>{player.name}</div>
                     <div>{player.current_team ? <div>{player.current_team.name}</div> : <div>loading</div>}</div>
                         <div>{player.role}</div>
+                        </div>
                         </div>
 
 :
