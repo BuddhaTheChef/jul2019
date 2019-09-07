@@ -35,8 +35,7 @@ class UpcomingTitles extends Component {
             <Link
               style={{ display: "contents", textDecoration: "none" }}
               to={{
-                pathname: "ProTeams/" + 20,
-                state: {}
+                pathname: "ProTeams/" + 1,
               }}
             >
               <div className="link2">
@@ -47,20 +46,18 @@ class UpcomingTitles extends Component {
             <Link
               style={{ display: "contents", textDecoration: "none" }}
               to={{
-                pathname: "ProTeams/" + 20,
-                state: {}
+                pathname: "ProTeams/" + 2,
               }}
             >
               <div className="link2">
-                <h1>PUBG</h1>
+              <h1>PUBG</h1>
               </div>
             </Link>
 
             <Link
               style={{ display: "contents", textDecoration: "none" }}
               to={{
-                pathname: "ProTeams/" + 20,
-                state: {}
+                pathname: "ProTeams/" + 3,
               }}
             >
               <div className="link2">
@@ -68,11 +65,21 @@ class UpcomingTitles extends Component {
               </div>
             </Link>
 
+             <Link
+              style={{ display: "contents", textDecoration: "none" }}
+              to={{
+                pathname: "ProTeams/" + 4,
+              }}
+            >
+              <div className="link2">
+                <h1>CSGO</h1>
+              </div>
+            </Link>
+
             <Link
               style={{ display: "contents", textDecoration: "none" }}
               to={{
-                pathname: "ProTeams/" + 20,
-                state: {}
+                pathname: "ProTeams/" + 5
               }}
             >
               <div className="link2">
