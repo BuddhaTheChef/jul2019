@@ -47,20 +47,23 @@ class ProTeams extends Component {
                 <div>
                     <h1>Pro Players</h1>
                 </div>
-                {this.state.lolplayers.map(player => (
+                {this.state.lolplayers.map(player  => (
                     <div style={{   
                     width: "400px",
                     height: "inherit",
                     background: "slategrey",
                     justifyContent: "space-around",
-                    display: "inline-flex",
+                    display: "contents",
                     flexDirection: "column",
                     margin: "50px",
                     borderRadius: "10px",
                     padding: "12px"}}>
 
                     {player.image_url ? 
-                        <div style={{display: 'flex'}}>
+                        <div style={{display: 'inline-flex',background: "slategrey",width: "400px",
+                        height: "inherit",margin: "50px",
+                        borderRadius: "10px",
+                        padding: "12px"}}>
                         <div><img src={player.image_url} alt="League team logo" style={{height: '200px'}}/></div>
                         <div style={{    
                             width: '50%',
