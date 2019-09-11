@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios';
 
-class ProTeams extends Component {
+class ProTeamsPUBG extends Component {
     state = {
         lolteams: [],
         lolplayers: []
@@ -9,12 +9,12 @@ class ProTeams extends Component {
     
       componentDidMount() {
         const API_KEY = process.env.REACT_APP_GAME_SOURCE_API;
-        axios.get(`https://api.pandascore.co/lol/teams?token=${API_KEY}`).then(res => {
+        axios.get(`https://api.pandascore.co/pubg/teams?token=${API_KEY}`).then(res => {
           console.log(res);
           const lolteams = res.data;
           this.setState({ lolteams });
         });
-        axios.get(`https://api.pandascore.co/lol/players?token=${API_KEY}`).then(res => {
+        axios.get(`https://api.pandascore.co/pubg/players?token=${API_KEY}`).then(res => {
             console.log(res);
             const lolplayers = res.data;
             this.setState({ lolplayers });
@@ -24,7 +24,7 @@ class ProTeams extends Component {
     render() {
         return (
             <div style={{marginTop: '140px'}}>
-                <h1 style={{textAlign: 'center', marginTop: '200px'}}>League of Legends Pro Teams</h1>
+                <h1 style={{textAlign: 'center', marginTop: '200px'}}>PUBG Pro Teams</h1>
                 <div>
                 {this.state.lolteams.map(team => (
                     <div style={{   width: "400px",
@@ -46,7 +46,7 @@ class ProTeams extends Component {
                 <hr/>
                 <div>
                 <div>
-                    <h1 style={{textAlign: 'center', marginTop: '100px'}}>League of Legends Pro Players</h1>
+                    <h1 style={{textAlign: 'center', marginTop: '100px'}}>PUBG Pro Players</h1>
                 </div>
                 {this.state.lolplayers.map(player  => (
                     <div style={{   
@@ -97,4 +97,4 @@ class ProTeams extends Component {
     }
 }
 
-export default ProTeams;
+export default ProTeamsPUBG;

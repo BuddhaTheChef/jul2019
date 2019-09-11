@@ -15,6 +15,7 @@ import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import ProTeams from './components/ProTeams';
 import ProjectSummary from './components/ProjectSummary';
+import ProTeamsPUBG from './components/ProTeamsPUBG';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
     <Switch>
           <Route path="/" exact component={LandingPage} />
           <Route path="/Games/:id" component={GameStreams} />
-          <Route path="/ProTeams/:id" component={ProTeams} />
+          <Route path="/ProTeams/3" component={ProTeams} />
+          <Route path="/ProTeams/2" component={ProTeamsPUBG} />
           <Route path="/GamesPage" component={GamesPage} />
           <Route path="/FriendsList" component={FriendsList}/>
           <Route path="/ProfilePage" component={ProfilePage} />
