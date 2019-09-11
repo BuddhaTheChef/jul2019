@@ -103,7 +103,7 @@ class UpcomingTitles extends Component {
                 marginTop: "50px"
               }}
             >
-              <h1>TOP TEAMS</h1>
+              <h1>TOP TEAMS OF THE WEEK</h1>
             </div>
             {this.state.teams.map(team => (
               <div
