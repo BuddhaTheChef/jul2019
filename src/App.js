@@ -16,6 +16,7 @@ import SignIn from './components/SignIn';
 import ProTeams from './components/ProTeams';
 import ProjectSummary from './components/ProjectSummary';
 import ProTeamsPUBG from './components/ProTeamsPUBG';
+import ProTeamsOW from './components/ProTeamsOW';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/Games/:id" component={GameStreams} />
           <Route path="/ProTeams/3" component={ProTeams} />
           <Route path="/ProTeams/2" component={ProTeamsPUBG} />
+          <Route path="/ProTeams/1" component={ProTeamsOW} />
           <Route path="/GamesPage" component={GamesPage} />
           <Route path="/FriendsList" component={FriendsList}/>
           <Route path="/ProfilePage" component={ProfilePage} />
