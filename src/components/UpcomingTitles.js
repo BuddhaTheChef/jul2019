@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import Triangles from '../assets/triangles.png';
+
 
 class UpcomingTitles extends Component {
   state = {
@@ -119,11 +121,14 @@ class UpcomingTitles extends Component {
                   padding: "12px"
                 }}
               >
-                <img
+                {team.image_url ? <img
                   src={team.image_url}
-                  alt="No Team Logo"
+                  alt='team logo'
                   style={{ height: "300px" }}
                 />
+                : 
+                <img src={Triangles} alt='team logo' style={{ height: "300px" }} />
+                }
                 <div
                   style={{
                     background: "#09e6bc",
