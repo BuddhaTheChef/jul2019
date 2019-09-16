@@ -17,6 +17,7 @@ import ProTeams from './components/ProTeams';
 import ProjectSummary from './components/ProjectSummary';
 import ProTeamsPUBG from './components/ProTeamsPUBG';
 import ProTeamsOW from './components/ProTeamsOW';
+import ProTeamsDOTA2 from './components/ProTeamsDOTA2';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
     <Switch>
           <Route path="/" exact component={LandingPage} />
           <Route path="/Games/:id" component={GameStreams} />
+          <Route path="/ProTeams/5" component={ProTeamsDOTA2} />
           <Route path="/ProTeams/3" component={ProTeams} />
           <Route path="/ProTeams/2" component={ProTeamsPUBG} />
           <Route path="/ProTeams/1" component={ProTeamsOW} />
