@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import Triangles from '../assets/triangles.png'
 
 class ProTeamsDOTA2 extends Component {
     state = {
@@ -79,13 +80,37 @@ class ProTeamsDOTA2 extends Component {
                             height: '199.18px'
 
                             }}>
-                        <div>{player.name}<span style={{color: '#09e6bc'}}>{player.role ? ` (${player.role})` : '(n/a)'}</span></div>
+                        <div>{player.name}</div>
+                        <div style={{color: '#09e6bc'}}>{'(DOTA 2)'}</div>
                     <div>{player.current_team ? <div style={{color: '#09e6bc'}}>{player.current_team.name}</div> : <div>Team Unavailable</div>}</div>
                         </div>
                         </div>
 
 :
-<div style={{display: 'none'}}></div>
+
+<div style={{display: 'inline-flex',background: "slategrey",width: "400px",
+height: "inherit",margin: "50px",
+borderRadius: "10px",
+padding: "12px"}}>
+<div><img src={Triangles} alt="League team logo" style={{height: '200px'}}/></div>
+<div style={{    
+    width: '50%',
+    display: 'flex',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    flexDirection: 'column',
+    fontWeight: 'bold',
+    fontSize: '20px',
+    background: 'black',
+    color: 'white',
+    height: '199.18px'
+
+    }}>
+<div>{player.name}</div>
+<div style={{color: '#09e6bc'}}>{'(DOTA 2)'}</div>
+<div>{player.current_team ? <div style={{color: '#09e6bc'}}>{player.current_team.name}</div> : <div>Team Unavailable</div>}</div>
+</div>
+</div>
 }
                         
                     
