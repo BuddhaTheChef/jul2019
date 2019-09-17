@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import Triangles from '../assets/triangles.png'
 
 class ProTeams extends Component {
     state = {
@@ -37,7 +38,7 @@ class ProTeams extends Component {
                     margin: "50px",
                     borderRadius: "10px",
                     padding: "12px"}}>
-                        <div><img src={team.image_url} alt="League team logo" style={{height: '200px'}}/></div>
+                        {team.image_url !== null ? <div><img src={team.image_url} alt="League team logo" style={{height: '200px'}}/></div> : <div><img src={Triangles} alt="League team logo" style={{height: '200px'}}/></div>}
                         <div style={{fontSize: '30px', fontWeight: 'bold'}}>{team.name}</div>
                         {/* <div>{team.players}</div> */}
                     </div>
