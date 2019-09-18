@@ -13,11 +13,12 @@ import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
-import ProTeams from './components/ProTeams';
+import ProTeamsLOL from './components/ProTeamsLOL';
 import ProjectSummary from './components/ProjectSummary';
 import ProTeamsPUBG from './components/ProTeamsPUBG';
 import ProTeamsOW from './components/ProTeamsOW';
 import ProTeamsDOTA2 from './components/ProTeamsDOTA2';
+import ProTeamsCSGO from './components/ProTeamsCSGO';
 
 function App() {
   return (
@@ -28,10 +29,11 @@ function App() {
     <Switch>
           <Route path="/" exact component={LandingPage} />
           <Route path="/Games/:id" component={GameStreams} />
-          <Route path="/ProTeams/5" component={ProTeamsDOTA2} />
-          <Route path="/ProTeams/3" component={ProTeams} />
-          <Route path="/ProTeams/2" component={ProTeamsPUBG} />
-          <Route path="/ProTeams/1" component={ProTeamsOW} />
+          <Route path="/ProTeams/dota2" component={ProTeamsDOTA2} />
+          <Route path="/ProTeams/csgo" component={ProTeamsCSGO} />
+          <Route path="/ProTeams/leagueoflegends" component={ProTeamsLOL} />
+          <Route path="/ProTeams/pubg" component={ProTeamsPUBG} />
+          <Route path="/ProTeams/overwatch" component={ProTeamsOW} />
           <Route path="/GamesPage" component={GamesPage} />
           <Route path="/FriendsList" component={FriendsList}/>
           <Route path="/ProfilePage" component={ProfilePage} />

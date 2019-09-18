@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios';
 import Triangles from '../assets/triangles.png'
 
-class ProTeams extends Component {
+class ProTeamsLOL extends Component {
     state = {
         lolteams: [],
         lolplayers: []
@@ -98,4 +98,4 @@ class ProTeams extends Component {
     }
 }
 
-export default ProTeams;
+export default ProTeamsLOL;
