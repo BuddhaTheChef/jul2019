@@ -25,7 +25,7 @@ class ProTeamsDOTA2 extends Component {
     render() {
         return (
             <div style={{marginTop: '140px'}}>
-                <h1 style={{textAlign: 'center', marginTop: '200px'}}>DOTA 2 Pro Teams</h1>
+                <h1 style={{textAlign: 'center', marginTop: '200px', color: 'whitesmoke'}}>DOTA 2 Pro Teams</h1>
                 <div>
                 {this.state.lolteams.map(team => (
                     <div style={{   width: "400px",
@@ -47,7 +47,7 @@ class ProTeamsDOTA2 extends Component {
                 <hr/>
                 <div>
                 <div>
-                    <h1 style={{textAlign: 'center', marginTop: '100px'}}>DOTA 2 Pro Players</h1>
+                    <h1 style={{textAlign: 'center', marginTop: '100px', color: 'whitesmoke'}}>DOTA 2 Pro Players</h1>
                 </div>
                 {this.state.lolplayers.map(player  => (
                     <div style={{   

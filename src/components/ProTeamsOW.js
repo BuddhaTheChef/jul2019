@@ -25,7 +25,7 @@ class ProTeamsOW extends Component {
     render() {
         return (
             <div style={{marginTop: '140px'}}>
-                <h1 style={{textAlign: 'center', marginTop: '200px'}}>OverWatch Pro Teams</h1>
+                <h1 style={{textAlign: 'center', marginTop: '200px',color: 'whitesmoke'}}>OverWatch Pro Teams</h1>
                 <div>
                 {this.state.owteams.map(team => (
                     <div style={{   width: "400px",
@@ -47,7 +47,7 @@ class ProTeamsOW extends Component {
                 <hr/>
                 <div>
                 <div>
-                    <h1 style={{textAlign: 'center', marginTop: '100px'}}>OverWatch Pro Players</h1>
+                    <h1 style={{textAlign: 'center', marginTop: '100px',color: 'whitesmoke'}}>OverWatch Pro Players</h1>
                 </div>
                 {this.state.owplayers.map(player  => (
                     <div style={{   

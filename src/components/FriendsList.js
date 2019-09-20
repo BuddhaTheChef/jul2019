@@ -14,7 +14,7 @@ class FriendsList extends Component {
             alignItems: "center"
           }}
         >
-          <h1>Friends Tech Specs!!</h1>
+          <h1>Friends list or building components for building a computer step by step and all the parts</h1>
         </div>
         <footer className="mainFooterDiv">
           <Footer />

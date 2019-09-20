@@ -24,7 +24,7 @@ class ProTeamsPUBG extends Component {
     render() {
         return (
             <div style={{marginTop: '140px'}}>
-                <h1 style={{textAlign: 'center', marginTop: '200px'}}>PUBG Pro Teams</h1>
+                <h1 style={{textAlign: 'center', marginTop: '200px',color: 'whitesmoke'}}>PUBG Pro Teams</h1>
                 <div>
                 {this.state.lolteams.map(team => (
                     <div style={{   width: "400px",
@@ -46,7 +46,7 @@ class ProTeamsPUBG extends Component {
                 <hr/>
                 <div>
                 <div>
-                    <h1 style={{textAlign: 'center', marginTop: '100px'}}>PUBG Pro Players</h1>
+                    <h1 style={{textAlign: 'center', marginTop: '100px',color: 'whitesmoke'}}>PUBG Pro Players</h1>
                 </div>
                 {this.state.lolplayers.map(player  => (
                     <div style={{   
