@@ -13,10 +13,11 @@ class FriendsList extends Component {
             flexDirection: 'column'
           }}
         >
-          <h1>Friends list or building components for building a computer step by step and all the parts</h1>
+          <h1 style={{color: 'whitesmoke'}}>Friends list or building components for building a computer step by step and all the parts</h1>
           <div>
-          <h1>Picking the right parts</h1>
-            <p>
+          <div style={{background: '#09e6bc'}}>
+          <h1 style={{color: 'whitesmoke'}}>Picking the right parts</h1>
+            <p style={{lineHeight: '2'}}>
 Intel Motherboard
 The most important part to get right is picking parts that do what you want and work with each other. Choosing wrong or incompatible parts may cause issues, damage to other components or require time for returning said products to retailers. In short, we'll need a CPU, GPU, RAM, motherboard, and some storage to complete the barebones checklist.
 
@@ -44,8 +45,10 @@ Storage: Entirely down to personal requirements, though we always recommend an S
 GPU: This is optional and is only really needed if you plan to do some gaming or intensive workloads. In that case, spend as much as you can.
 But wait! Even after double and triple checking that everything will place nicely together, it's recommended you use an automated tool that checks entered components against a database to confirm that there are no conflicts. It's worth firing up PC Part Picker, entering in all your components and then checking everything over.
 </p>
-<h1>Tools You Need</h1>
-<p>
+</div>
+<div style={{background: '#09e6bc'}}>
+<h1 style={{color: 'whitesmoke'}}>Tools You Need</h1>
+<p style={{lineHeight: '2'}}>
 The bare essentials you'll need to build a PC including the following:
 
 Toolkit.
@@ -57,9 +60,10 @@ Magnetic parts tray.
 Free workspace (never use carpet).
 Anti-static Wristband
 </p>
-
-<h1>Installing Components</h1>
-<p>
+</div>
+<div>
+<h1 style={{color: 'whitesmoke'}}>Installing Components</h1>
+<p style={{lineHeight: '2'}}>
 Installing the PSU
 Installing the CPU
 Installing the RAM
@@ -70,9 +74,10 @@ Adding case fans
 Installing a GPU
 Avoid these rookie PC building mistakes
 </p>
-
-<h1>Installing the PSU</h1>
-<p>
+</div>
+<div>
+<h1 style={{color: 'whitesmoke'}}>Installing the PSU</h1>
+<p style={{lineHeight: '2'}}>
 Slide the PSU into the mounting area with the fan facing up or down.
 Screw in bundled screws (should come with the case) in the four holes at the rear of the case.
 Ensure the unit is switched off using the rear switch.
@@ -86,9 +91,10 @@ Semi-modular: Some cables are permanently fixed, usually ATX and CPU power.
 Non-modular: Every cable is connected and cannot be removed from the PSU.
 Fully and semi-modular PSUs are easiest to work with as you'll have an easier time making sure all cables look neat and tidy.
 </p>
-
-<h1>Installing the CPU</h1>
-<p>
+</div>
+<div>
+<h1 style={{color: 'whitesmoke'}}>Installing the CPU</h1>
+<p style={{lineHeight: '2'}}>
 We can now insert the CPU into the motherboard. This is a super-easy process, regardless as to whether you're rocking an AMD or Intel chip.
 
 Unpack the motherboard from its packaging.
@@ -100,9 +106,10 @@ Close the latch to secure the CPU. (This step will require some amount of pressu
 Intel CPU Paste
 Now we can use the thermal paste and attach the CPU cooler to complete everything processor-related. Depending on the cooler you've purchased, you may have a layer of thermal paste already applied. If not, we'll need to do this before installing the cooler. (Tip: less is more.)
 </p>
-
-<h1>Installing the RAM</h1>
-<p>
+</div>
+<div>
+<h1 style={{color: 'whitesmoke'}}>Installing the RAM</h1>
+<p style={{lineHeight: '2'}}>
 RAM
 RAM is a sensitive component and as such should be handled with care. It's recommended that contact is avoided with the contact pins on the underside of each module. The RAM slots on a motherboard are located to the right of the CPU but do check the motherboard manual as to which RAM slots are to be used, depending on how many sticks you have. A motherboard with four slots or more, you'll want to populate slots one and two first.
 
@@ -114,9 +121,10 @@ RAM
 After it inserts into the slot, push down on either side of the RAM module until it securely clicks into place.
 How to install RAM
 </p>
-
-<h1>Installing the moterboard</h1>
-<p>
+</div>
+<div>
+<h1 style={{color: 'whitesmoke'}}>Installing the moterboard</h1>
+<p style={{lineHeight: '2'}}>
 With the CPU, the cooler, and RAM modules installed, the motherboard is ready to be screwed to the back plate inside the case. First, we need to install the I/O shield, a long piece of metal that has cutouts for the all the rear ports and connections. This is optional but recommended accessory helps provide electromagnetic interference (EMI) protection.
 
 Place the I/O shield to the rear cutout in the PC case and click into place. (This can be super-fiddly.)
@@ -134,9 +142,10 @@ Motherboard
 MSI Performance Gaming X470GPLUS
 Ryzen up again.
 </p>
-
-<h1>Installing storage drives</h1>
-<p>
+</div>
+<div>
+<h1 style={{color: 'whitesmoke'}}>Installing storage drives</h1>
+<p style={{lineHeight: '2'}}>
 SSD
 Storage drives are important devices that hold not only the operating system but also all programs, personal media, and all other data. It's recommended to use an SSD (2.5-inch) drive for the main OS partition, which enables for quick booting and solid performance. Data can be stored on traditional (3.5-inch) mechanical drives.
 
@@ -153,9 +162,10 @@ Secure the drive to said bracket using screws or screwless mechanism.
 Slide the bracket and drive back into the bay.
 SSD
 </p>
-
-<h1>Plug everything in</h1>
-<p>
+</div>
+<div>
+<h1 style={{color: 'whitesmoke'}}>Plug everything in</h1>
+<p style={{lineHeight: '2'}}>
 With all major components now installed, it's time to hook everything up to the power supply and motherboard. Generally speaking, it's best to start with the power to the motherboard itself.
 
 Motherboard: The PSU has two cables for the board: 24-pin ATX and 8-pin CPU. Route these behind the backplate, using available grommets and cutouts.
@@ -174,9 +184,10 @@ The front USB 3.0 and HD audio pins can be located on the motherboard. Again, re
 Adding case fans
 For added cooling capacity (and room for overclocking or more stable operation), throwing in an extra fan or two is worthwhile. PC cases may come with fans pre-installed, but if not it's simple to screw them into fan mounts. Just be sure to align them correctly and have the blades pointing the correct way. Fans can have small arrows on the side that show which way the blades spin and where airflow will be directed.
 </p>
-
-<h1>Installing a GPU</h1>
-<p>
+</div>
+<div>
+<h1 style={{color: 'whitesmoke'}}>Installing a GPU</h1>
+<p style={{lineHeight: '2'}}>
 GPU
 Need some extra power for gaming and intense workloads? A GPU is a must-have. As an added bonus, it's really easy to install a graphics card. We usually leave the GPU until last because of how much space they usually take within the chassis.
 
@@ -188,9 +199,10 @@ Carefully insert the card and push down once it has made contact with the slot, 
 Use the rear bracket screws to secure the GPU to the PC case for added stability.
 If the GPU requires additional PSU power, connect the necessary cables.
 </p>
+</div>
           </div>
         </div>
-        <footer className="mainFooterDiv" style={{marginTop: '1100px'}}>
+        <footer className="mainFooterDiv" style={{marginTop: '1650px'}}>
           <Footer />
         </footer>
       </div>
