@@ -7,15 +7,15 @@ class FriendsList extends Component {
       <div>
         <div
           style={{
-            marginTop: "140px",
+            marginTop: "220px",
             height: "-webkit-fill-available",
             display: "flex",
             flexDirection: 'column'
           }}
         >
-          <h1 style={{color: 'whitesmoke'}}>Friends list or building components for building a computer step by step and all the parts</h1>
+          <h1 style={{color: 'whitesmoke', textAlign: 'center'}}>How To Build A Computer</h1>
           <div>
-          <div style={{background: '#09e6bc'}}>
+          <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
           <h1 style={{color: 'whitesmoke'}}>Picking the right parts</h1>
             <p style={{lineHeight: '2'}}>
 Intel Motherboard
@@ -46,7 +46,7 @@ GPU: This is optional and is only really needed if you plan to do some gaming or
 But wait! Even after double and triple checking that everything will place nicely together, it's recommended you use an automated tool that checks entered components against a database to confirm that there are no conflicts. It's worth firing up PC Part Picker, entering in all your components and then checking everything over.
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Tools You Need</h1>
 <p style={{lineHeight: '2'}}>
 The bare essentials you'll need to build a PC including the following:
@@ -61,7 +61,7 @@ Free workspace (never use carpet).
 Anti-static Wristband
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing Components</h1>
 <p style={{lineHeight: '2'}}>
 Installing the PSU
@@ -75,7 +75,7 @@ Installing a GPU
 Avoid these rookie PC building mistakes
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the PSU</h1>
 <p style={{lineHeight: '2'}}>
 Slide the PSU into the mounting area with the fan facing up or down.
@@ -92,7 +92,7 @@ Non-modular: Every cable is connected and cannot be removed from the PSU.
 Fully and semi-modular PSUs are easiest to work with as you'll have an easier time making sure all cables look neat and tidy.
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the CPU</h1>
 <p style={{lineHeight: '2'}}>
 We can now insert the CPU into the motherboard. This is a super-easy process, regardless as to whether you're rocking an AMD or Intel chip.
@@ -107,7 +107,7 @@ Intel CPU Paste
 Now we can use the thermal paste and attach the CPU cooler to complete everything processor-related. Depending on the cooler you've purchased, you may have a layer of thermal paste already applied. If not, we'll need to do this before installing the cooler. (Tip: less is more.)
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the RAM</h1>
 <p style={{lineHeight: '2'}}>
 RAM
@@ -122,7 +122,7 @@ After it inserts into the slot, push down on either side of the RAM module until
 How to install RAM
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the moterboard</h1>
 <p style={{lineHeight: '2'}}>
 With the CPU, the cooler, and RAM modules installed, the motherboard is ready to be screwed to the back plate inside the case. First, we need to install the I/O shield, a long piece of metal that has cutouts for the all the rear ports and connections. This is optional but recommended accessory helps provide electromagnetic interference (EMI) protection.
@@ -143,7 +143,7 @@ MSI Performance Gaming X470GPLUS
 Ryzen up again.
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing storage drives</h1>
 <p style={{lineHeight: '2'}}>
 SSD
@@ -163,7 +163,7 @@ Slide the bracket and drive back into the bay.
 SSD
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Plug everything in</h1>
 <p style={{lineHeight: '2'}}>
 With all major components now installed, it's time to hook everything up to the power supply and motherboard. Generally speaking, it's best to start with the power to the motherboard itself.
@@ -185,7 +185,7 @@ Adding case fans
 For added cooling capacity (and room for overclocking or more stable operation), throwing in an extra fan or two is worthwhile. PC cases may come with fans pre-installed, but if not it's simple to screw them into fan mounts. Just be sure to align them correctly and have the blades pointing the correct way. Fans can have small arrows on the side that show which way the blades spin and where airflow will be directed.
 </p>
 </div>
-<div style={{background: '#09e6bc'}}>
+<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing a GPU</h1>
 <p style={{lineHeight: '2'}}>
 GPU
@@ -202,7 +202,7 @@ If the GPU requires additional PSU power, connect the necessary cables.
 </div>
           </div>
         </div>
-        <footer className="mainFooterDiv" style={{marginTop: '1650px'}}>
+        <footer className="mainFooterDiv" style={{marginTop: '3950px'}}>
           <Footer />
         </footer>
       </div>
