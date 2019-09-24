@@ -21,60 +21,53 @@ class FriendsList extends Component {
 Intel Motherboard
 The most important part to get right is picking parts that do what you want and work with each other. Choosing wrong or incompatible parts may cause issues, damage to other components or require time for returning said products to retailers. In short, we'll need a CPU, GPU, RAM, motherboard, and some storage to complete the barebones checklist.
 
-Looking inside a PC case can reveal a mess of electronics to someone who doesn't know what does what. Fear not, as we've got you covered when it comes to picking the right parts. Check out our best guides for each component and then check for compatibilities using our brief checklist below.
+Looking inside a PC case can reveal a mess of electronics to someone who doesn't know what does what. Fear not, as we've got you covered when it comes to picking the right parts.
+<h1>Products used in this guide</h1>
+<ul>
+  <li>Cases</li>
+  <li>CPU's</li>
+  <li>PSU's</li>
+  <li>Motherboard</li>
+  <li>RAM</li>
+  <li>GPU</li>
+  <li>Compatability</li>
+</ul>
 
-Products used in this guide
-Best cases
-Best CPU (best CPU coolers)
-Best PSU
-Best motherboards
-Best RAM
-Best GPU
-Best GPU for gamers
-Best SSD
-Compatability
-GPUs
-Here's what you're looking for with components:
+<h3>Here's what you're looking for with components:</h3>
 
-Case: Cases come in different form factors, depending on the size of PC you wish to build. Less important overall.
-PSU: Needs to supply enough stable power (500W is usually a good value to start with).
-CPU: You have the choice of AMD and Intel for desktop processors. Take a look at our best guide and note the sockets they use as you'll need to match the socket for the motherboard.
-Motherboard: A motherboard simply needs to match the same socket type of the CPU. Chipset and other features are all down to pricing and preference.
-RAM: Faster frequencies and lower latencies generally mean better the RAM, though you'll need to make sure your motherboard can support the same clock speed or it'll be limited. Most new boards support DDR4.
-Storage: Entirely down to personal requirements, though we always recommend an SSD for installing Windows.
-GPU: This is optional and is only really needed if you plan to do some gaming or intensive workloads. In that case, spend as much as you can.
-But wait! Even after double and triple checking that everything will place nicely together, it's recommended you use an automated tool that checks entered components against a database to confirm that there are no conflicts. It's worth firing up PC Part Picker, entering in all your components and then checking everything over.
+<h4 style={{display: 'inline-block'}}>Case:</h4> Cases come in different form factors, depending on the size of PC you wish to build. Less important overall.
+<br/>
+<h4 style={{display: 'inline-block'}}>PSU:</h4> Needs to supply enough stable power (500W is usually a good value to start with).
+<br/>
+<h4 style={{display: 'inline-block'}}>CPU:</h4> You have the choice of AMD and Intel for desktop processors. Take a look at our best guide and note the sockets they use as you'll need to match the socket for the motherboard.
+<br/>
+<h4 style={{display: 'inline-block'}}>Motherboard:</h4> A motherboard simply needs to match the same socket type of the CPU. Chipset and other features are all down to pricing and preference.
+<br/>
+<h4 style={{display: 'inline-block'}}>RAM:</h4> Faster frequencies and lower latencies generally mean better the RAM, though you'll need to make sure your motherboard can support the same clock speed or it'll be limited. Most new boards support DDR4.
+<br/>
+<h4 style={{display: 'inline-block'}}>Storage:</h4> Entirely down to personal requirements, though we always recommend an SSD for installing Windows.
+<br/>
+<h4 style={{display: 'inline-block'}}>GPU:</h4> This is optional and is only really needed if you plan to do some gaming or intensive workloads. In that case, spend as much as you can.
 </p>
 </div>
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Tools You Need</h1>
 <p style={{lineHeight: '2'}}>
-The bare essentials you'll need to build a PC including the following:
+<h3>The essentials for building a pc:</h3>
 
-Toolkit.
-LED light source.
-Flat workspace (no carpet).
-Anti-static mat.
-Anti-static wristband.
-Magnetic parts tray.
-Free workspace (never use carpet).
-Anti-static Wristband
+<ul>
+  <li>Toolkit</li>
+  <li>LED light source</li>
+  <li>Flat workspace (no carpet)</li>
+  <li>Anti-static mat</li>
+  <li>Anti-static wristband</li>
+  <li>Magnetic parts tray</li>
+  <li>Free workspace (never use carpet)</li>
+</ul>
+
 </p>
 </div>
-<div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
-<h1 style={{color: 'whitesmoke'}}>Installing Components</h1>
-<p style={{lineHeight: '2'}}>
-Installing the PSU
-Installing the CPU
-Installing the RAM
-Installing a motherboard
-Installing storage drives
-Plugging everything in
-Adding case fans
-Installing a GPU
-Avoid these rookie PC building mistakes
-</p>
-</div>
+
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the PSU</h1>
 <p style={{lineHeight: '2'}}>
@@ -202,7 +195,7 @@ If the GPU requires additional PSU power, connect the necessary cables.
 </div>
           </div>
         </div>
-        <footer className="mainFooterDiv" style={{marginTop: '3950px'}}>
+        <footer className="mainFooterDiv" style={{marginTop: '4550px'}}>
           <Footer />
         </footer>
       </div>
