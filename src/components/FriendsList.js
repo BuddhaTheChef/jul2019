@@ -71,12 +71,15 @@ Looking inside a PC case can reveal a mess of electronics to someone who doesn't
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the PSU</h1>
 <p style={{lineHeight: '2'}}>
-Slide the PSU into the mounting area with the fan facing up or down.
-Screw in bundled screws (should come with the case) in the four holes at the rear of the case.
-Ensure the unit is switched off using the rear switch.
-Plug the PSU into a power socket to ground the PC.
-Bind all the power cables coming out of the PSU together and put them to one side.
-PSU
+<ol>
+  <li>Slide the PSU into the mounting area with the fan facing up or down.</li>
+  <li>Screw in bundled screws (should come with the case) in the four holes at the rear of the case.</li>
+  <li>Ensure the unit is switched off using the rear switch.</li>
+  <li>Plug the PSU into a power socket to ground the PC.</li>
+  <li>Bind all the power cables coming out of the PSU together and put them to one side.</li>
+</ol>
+
+<h3>PSU</h3>
 Depending on the PSU you've purchased, it may be one of the following:
 
 Fully modular: No cables are permanently connected to the PSU.
@@ -88,52 +91,47 @@ Fully and semi-modular PSUs are easiest to work with as you'll have an easier ti
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the CPU</h1>
 <p style={{lineHeight: '2'}}>
-We can now insert the CPU into the motherboard. This is a super-easy process, regardless as to whether you're rocking an AMD or Intel chip.
-
-Unpack the motherboard from its packaging.
-Place the motherboard atop its cardboard box. (It's safe here. Never place on carpet.)
-Open the CPU latch.
-Remove the plastic cap.
-Insert the CPU, matching notches and indicators to the socket. (Do not apply pressure, it should lie flush without force.)
-Close the latch to secure the CPU. (This step will require some amount of pressure.)
-Intel CPU Paste
+<ol>
+  <li>Unpack the motherboard from its packaging.</li>
+  <li>Place the motherboard atop its cardboard box. (It's safe here. Never place on carpet.)</li>
+  <li>Open the CPU latch.</li>
+  <li>Remove the plastic cap.</li>
+  <li>Insert the CPU, matching notches and indicators to the socket. (Do not apply pressure, it should lie flush without force.)</li>
+  <li>Close the latch to secure the CPU. (This step will require some amount of pressure.)</li>
+  <li>Apply CPU Paste</li>
+</ol>
 Now we can use the thermal paste and attach the CPU cooler to complete everything processor-related. Depending on the cooler you've purchased, you may have a layer of thermal paste already applied. If not, we'll need to do this before installing the cooler. (Tip: less is more.)
 </p>
 </div>
+
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the RAM</h1>
 <p style={{lineHeight: '2'}}>
-RAM
+<h3>RAM</h3>
 RAM is a sensitive component and as such should be handled with care. It's recommended that contact is avoided with the contact pins on the underside of each module. The RAM slots on a motherboard are located to the right of the CPU but do check the motherboard manual as to which RAM slots are to be used, depending on how many sticks you have. A motherboard with four slots or more, you'll want to populate slots one and two first.
-
-Unclip the RAM locks on the motherboard module slots.
-Match the RAM module notches to those found in the slots on the motherboard.
-Insert the module carefully, using light even force across the stick.
-
-RAM
-After it inserts into the slot, push down on either side of the RAM module until it securely clicks into place.
-How to install RAM
+<ol>
+  <li>Match the RAM module notches to those found in the slots on the motherboard.</li>
+  <li>Insert the module carefully, using light even force across the stick.</li>
+  <li>After it inserts into the slot, push down on either side of the RAM module until it securely clicks into place.</li>
+</ol>
 </p>
 </div>
+
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing the moterboard</h1>
 <p style={{lineHeight: '2'}}>
 With the CPU, the cooler, and RAM modules installed, the motherboard is ready to be screwed to the back plate inside the case. First, we need to install the I/O shield, a long piece of metal that has cutouts for the all the rear ports and connections. This is optional but recommended accessory helps provide electromagnetic interference (EMI) protection.
-
-Place the I/O shield to the rear cutout in the PC case and click into place. (This can be super-fiddly.)
-Hover the motherboard atop the back plate to see where standoffs need to be screwed in. Different sizes need different holes.
-
+<ol>
+  <li>Place the I/O shield to the rear cutout in the PC case and click into place. (This can be super-fiddly.)</li>
+  <li>Hover the motherboard atop the back plate to see where standoffs need to be screwed in. Different sizes need different holes.</li>
+  <li>Install the standoffs for the motherboard, if not already pre-installed. (Some backplates may feature ATX labels next to holes to guide you.)</li>
+  <li>Lower the motherboard onto the standoffs.</li>
+  <li>Tighten the screws, but do not overtighten them — just enough to secure the board in place.</li>
+  <li>Check the sides of the motherboard by lightly pulling to make sure every inch has been secured.</li>
+</ol>
+<h3>What are Standoffs?</h3>
 Standoffs are the screws that are installed on the motherboard backplate, which then allows the motherboard to rest atop them and for screws to secure the board. Some cases have them pre-installed.
 
-Install the standoffs for the motherboard, if not already pre-installed. (Some backplates may feature ATX labels next to holes to guide you.)
-Lower the motherboard onto the standoffs.
-
-Motherboard
-Tighten the screws, but do not overtighten them — just enough to secure the board in place.
-Check the sides of the motherboard by lightly pulling to make sure every inch has been secured.
-Motherboard
-MSI Performance Gaming X470GPLUS
-Ryzen up again.
 </p>
 </div>
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
