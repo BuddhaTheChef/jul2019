@@ -137,21 +137,26 @@ Standoffs are the screws that are installed on the motherboard backplate, which 
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing storage drives</h1>
 <p style={{lineHeight: '2'}}>
-SSD
+<h3>SSD</h3>
 Storage drives are important devices that hold not only the operating system but also all programs, personal media, and all other data. It's recommended to use an SSD (2.5-inch) drive for the main OS partition, which enables for quick booting and solid performance. Data can be stored on traditional (3.5-inch) mechanical drives.
 
 Depending on the case and how drive bays are configured, 2.5- and 3.5-inch drives may be able to be installed at the same points or using dedicated brackets. Be sure to double check the PC case manual. We'll go over how your PC case may have both configured below.
+<ol>
+  <h4>2.5-inch SSD</h4>
+  <li>Take the SSD bracket and attach the drive to it, lining up the screw holes.</li>
+  <li>Screw in the drive using appropriate screws.</li>
+  <li>Attach the bracket and secure it to the case.</li>
+  <h4>3.5-inch HDD</h4>
+  <li>Extract the HDD bracket from one of the bays.</li>
+  <li>Slide the mechanical drive into the bracket.</li>
+  <li>Secure the drive to said bracket using screws or screwless mechanism.</li>
+  <li>Slide the bracket and drive back into the bay.</li>
+</ol>
 
-2.5-inch SSD
-Take the SSD bracket and attach the drive to it, lining up the screw holes.
-Screw in the drive using appropriate screws.
-Attach the bracket and secure it to the case.
-3.5-inch HDD
-Extract the HDD bracket from one of the bays.
-Slide the mechanical drive into the bracket.
-Secure the drive to said bracket using screws or screwless mechanism.
-Slide the bracket and drive back into the bay.
-SSD
+
+
+
+
 </p>
 </div>
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
