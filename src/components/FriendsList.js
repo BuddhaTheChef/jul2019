@@ -162,25 +162,29 @@ Depending on the case and how drive bays are configured, 2.5- and 3.5-inch drive
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Plug everything in</h1>
 <p style={{lineHeight: '2'}}>
-With all major components now installed, it's time to hook everything up to the power supply and motherboard. Generally speaking, it's best to start with the power to the motherboard itself.
-
-Motherboard: The PSU has two cables for the board: 24-pin ATX and 8-pin CPU. Route these behind the backplate, using available grommets and cutouts.
-Storage drives: Most SSDs and HDDs today use SATA connectors. These are 15-pin flat connectors with a dip on one side to prevent plugging them in the wrong way. Route these from the PSU to the drive bays and mounts, using more than one lead from the PSU if required.
-PSU Cable
-Next, we need to connect the storage drives to the motherboard, using SATA data cables. These are essentially smaller versions of their power siblings that carry data instead. The motherboard usually has SATA ports located to the lower-left hand-side. It doesn't matter which ports are used. Much like the power cables, route these through cut-outs and grommets to the drive bays and mounts.
-
-We now have power to our storage drives and to the motherboard, as well as data channels between drives and the main board. All that's really left is to connect front panel I/O and other optional connectors (front panel USB, HD audio, etc.). Connecting the front panel I/O, which includes the power switch, reset switch, HDD activity LED, and power LED can be a tricky step.
-
-These pins stand up from the motherboard, which requires a careful approach when plugging in the small connectors. The motherboard manual should provide information as to the layout of these pins and what they correspond to - though usually the below layout is used:
-
-Motherboard I/O
+<i>Generally speaking, it's best to start with the power to the motherboard itself.</i>
+<h3>Motherboard: </h3>
+<p>The PSU has two cables for the board: 24-pin ATX and 8-pin CPU. Route these behind the backplate, using available grommets and cutouts.</p>
+<h3>Storage drives:</h3>
+<p> Most SSDs and HDDs today use SATA connectors. These are 15-pin flat connectors with a dip on one side to prevent plugging them in the wrong way. Route these from the PSU to the drive bays and mounts, using more than one lead from the PSU if required.
+</p>
+<h3>PSU Cable</h3>
+<ol>
+  <li>We need to connect the storage drives to the motherboard, using SATA data cables. The motherboard usually has SATA ports located to the lower-left hand-side. Much like the power cables, route these through cut-outs and grommets to the drive bays and mounts.</li>
+  <li>We now power storage drives to the motherboard</li>
+  <li>Plug in data channels between drives and the main board</li>
+  <li>Connect front panel I/O and other optional connectors (front panel USB, HD audio, etc.). Connecting the front panel I/O, which includes the power switch, reset switch, HDD activity LED, and power LED can be a tricky step.</li>
+  <li>The motherboard manual should provide information as to the layout of these pins and what they correspond to</li>
+</ol>
+<h3>Motherboard I/O</h3>
 The front USB 3.0 and HD audio pins can be located on the motherboard. Again, refer to the manual for exact placement as not all motherboards are created equal.
 
-
-Adding case fans
-For added cooling capacity (and room for overclocking or more stable operation), throwing in an extra fan or two is worthwhile. PC cases may come with fans pre-installed, but if not it's simple to screw them into fan mounts. Just be sure to align them correctly and have the blades pointing the correct way. Fans can have small arrows on the side that show which way the blades spin and where airflow will be directed.
+<h3>Adding case fans</h3>
+Throwing in an extra fan or two is worthwhile. PC cases may come with fans pre-installed, but if not it's simple to screw them into fan mounts. Just be sure to align them correctly and have the blades pointing the correct way. Fans can have small arrows on the side that show which way the blades spin and where airflow will be directed.
 </p>
 </div>
+
+
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing a GPU</h1>
 <p style={{lineHeight: '2'}}>
@@ -196,9 +200,10 @@ Use the rear bracket screws to secure the GPU to the PC case for added stability
 If the GPU requires additional PSU power, connect the necessary cables.
 </p>
 </div>
+
           </div>
         </div>
-        <footer className="mainFooterDiv" style={{marginTop: '4550px'}}>
+        <footer className="mainFooterDiv" style={{marginTop: '5550px'}}>
           <Footer />
         </footer>
       </div>
