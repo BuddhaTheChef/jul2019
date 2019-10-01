@@ -188,22 +188,22 @@ Throwing in an extra fan or two is worthwhile. PC cases may come with fans pre-i
 <div style={{background: '#09e6bc', padding: '40px 80px', margin: '90px',borderRadius: '9px',boxShadow: '0 4px 8px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}>
 <h1 style={{color: 'whitesmoke'}}>Installing a GPU</h1>
 <p style={{lineHeight: '2'}}>
-GPU
-Need some extra power for gaming and intense workloads? A GPU is a must-have. As an added bonus, it's really easy to install a graphics card. We usually leave the GPU until last because of how much space they usually take within the chassis.
-
-Unscrew the rear PCI case brackets that align with the PCI slot you will use.
-Check that the motherboard GPU card latch is open.
-Remove the protective cap that covers the PCIe strip on the GPU.
-Line up the GPU to the PCIe slot on the motherboard.
-Carefully insert the card and push down once it has made contact with the slot, listening out for a click of the latch securing.
-Use the rear bracket screws to secure the GPU to the PC case for added stability.
-If the GPU requires additional PSU power, connect the necessary cables.
+<h3>GPU</h3>
+<ol>
+  <li>Unscrew the rear PCI case brackets that align with the PCI slot you will use.</li>
+  <li>Check that the motherboard GPU card latch is open.</li>
+  <li>Remove the protective cap that covers the PCIe strip on the GPU.</li>
+  <li>Line up the GPU to the PCIe slot on the motherboard.</li>
+  <li>Carefully insert the card and push down once it has made contact with the slot, listening out for a click of the latch securing.</li>
+  <li>Use the rear bracket screws to secure the GPU to the PC case for added stability.</li>
+  <li>If the GPU requires additional PSU power, connect the necessary cables.</li>
+</ol>
 </p>
 </div>
 
           </div>
         </div>
-        <footer className="mainFooterDiv" style={{marginTop: '5550px'}}>
+        <footer className="mainFooterDiv" style={{marginTop: '6050px'}}>
           <Footer />
         </footer>
       </div>
