@@ -56,7 +56,7 @@ class NavBar extends Component {
             {auth.uid ?
             <li className="nav-list__item">
               <Link to="/FriendsList" className="nav-list__link">
-                Building A Computer
+                Build A Computer
               </Link>
             </li>
             :
