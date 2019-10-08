@@ -12,16 +12,15 @@ class GiveAways extends Component {
       <div>
         <div
           style={{
-            marginTop: "60px",
+            marginTop: "142px",
             height: "-webkit-fill-available",
             display: "flex",
-            justifyContent: "center",
             alignItems: "center",
             flexDirection: 'column'
           }}
         >
           <h1>GiveAways!!</h1>
-          <div style={{background: 'whitesmoke', height: '50vh', width: '100%'}}></div>
+          <div style={{background: 'whitesmoke', height: '75vh', width: '100%'}}></div>
         </div>
         <footer className="mainFooterDiv">
           <Footer/>
