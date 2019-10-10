@@ -246,7 +246,10 @@ body {
 .nav-list__item {
   display: block;
   float: left;
-  padding-left: 5.3rem;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  margin: 5px;
+  background: yellow;
   line-height: 2;
   text-align: right;
 }
@@ -261,6 +264,7 @@ body {
 
 .nav-list__link {
   color: slategray;
+  font-weight: bold;
   font-size: 1.1rem;
   text-decoration: none;
 }
@@ -269,6 +273,7 @@ body {
 .nav-list__link--active,
 .nav-list__link--active:hover {
   color: white;
+  background: red;
 }
 
 .search-div {
