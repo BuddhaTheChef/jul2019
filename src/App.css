@@ -252,6 +252,7 @@ body {
   padding-bottom: 22px;
   margin: 5px;
   background: #09e6bc;
+  border-radius: 9px;
   line-height: 2;
   text-align: right;
 }
