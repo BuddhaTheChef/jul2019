@@ -20,7 +20,9 @@ class GiveAways extends Component {
           }}
         >
           <h1>GiveAways!!</h1>
-          <div style={{background: 'whitesmoke', height: '75vh', width: '100%'}}></div>
+          <div style={{background: 'whitesmoke', height: '105vh', width: '100%'}}>
+            <h1>Think about content to put in here</h1>
+          </div>
         </div>
         <footer className="mainFooterDiv">
           <Footer/>
