@@ -274,8 +274,8 @@ body {
 
 .nav-list__item:hover {
   color: black;
-  background: slategray;
-  transform: scale(1.1);
+  background: #09e6bc;
+  transform: scale(1.04);
 }
 
 .search-div {
