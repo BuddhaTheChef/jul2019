@@ -19,9 +19,16 @@ class GiveAways extends Component {
             flexDirection: 'column'
           }}
         >
-          <h1>GiveAways!!</h1>
+          <h1 style={{color: 'whitesmoke'}}>Whats new in Tech?</h1>
           <div style={{background: 'whitesmoke', height: '105vh', width: '100%'}}>
-            <h1>Think about content to put in here</h1>
+          <div class="main-tech-top-div">
+            <div class="tech-top-divs">Hi</div>
+            <div class="tech-top-divs">Bye</div>
+            <div class="tech-top-divs">Cry</div>
+          </div>
+          <div class="main-tech-mid-div ">
+            Other content
+          </div>
           </div>
         </div>
         <footer className="mainFooterDiv">

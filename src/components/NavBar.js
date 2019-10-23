@@ -73,7 +73,7 @@ class NavBar extends Component {
              }
             <li className="nav-list__item">
               <Link to="/GiveAways" className="nav-list__link">
-                Give Aways!
+                New Tech
               </Link>
             </li>
           </ul>
