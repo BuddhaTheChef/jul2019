@@ -13,14 +13,14 @@ class GiveAways extends Component {
         <div
           style={{
             marginTop: "142px",
-            height: "-webkit-fill-available",
             display: "flex",
             alignItems: "center",
-            flexDirection: 'column'
+            flexDirection: 'column',
+            background: 'whitesmoke'
           }}
         >
           <h1 style={{color: 'whitesmoke'}}>Whats new in Tech?</h1>
-          <div style={{background: 'whitesmoke', height: '105vh', width: '100%'}}>
+          <div style={{background: 'whitesmoke', width: '100%'}}>
           <div class="main-tech-top-div">
             <div class="tech-top-divs">Hi</div>
             <div class="tech-top-divs">Bye</div>
@@ -29,6 +29,22 @@ class GiveAways extends Component {
           <div class="main-tech-mid-div ">
             Other content
           </div>
+          </div>
+          <div class="main-tech-top-div">
+            <div class="tech-top-divs">Hi</div>
+            <div class="tech-top-divs">Bye</div>
+            <div class="tech-top-divs">Cry</div>
+          </div>
+          <div class="main-tech-mid-div ">
+            Other content
+          </div>
+          <div class="main-tech-top-div">
+            <div class="tech-top-divs">Hi</div>
+            <div class="tech-top-divs">Bye</div>
+            <div class="tech-top-divs">Cry</div>
+          </div>
+          <div class="main-tech-mid-div ">
+            Other content
           </div>
         </div>
         <footer className="mainFooterDiv">
