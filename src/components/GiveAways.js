@@ -40,16 +40,16 @@ class GiveAways extends Component {
           </div>
           </div>
           <div class="main-tech-top-div">
-            <div class="tech-top-divs">Hi</div>
-            <div class="tech-top-divs">Bye</div>
-            <div class="tech-top-divs">Cry</div>
+            <div class="tech-top-divs"><img src={nt4} alt="tech-pic" className="newTechPics"/></div>
+            <div class="tech-top-divs"><img src={nt5} alt="tech-pic" className="newTechPics"/></div>
+            <div class="tech-top-divs"><img src={nt6} alt="tech-pic" className="newTechPics"/></div>
           </div>
           <div class="main-tech-mid-div ">
             Other content
           </div>
           <div class="main-tech-top-div">
-            <div class="tech-top-divs">Hi</div>
-            <div class="tech-top-divs">Bye</div>
+            <div class="tech-top-divs"><img src={nt7} alt="tech-pic" className="newTechPics"/></div>
+            <div class="tech-top-divs"><img src={nt8} alt="tech-pic" className="newTechPics"/></div>
             <div class="tech-top-divs">Cry</div>
           </div>
           <div class="main-tech-mid-div">
