@@ -16,10 +16,11 @@ class GiveAways extends Component {
             display: "flex",
             alignItems: "center",
             flexDirection: 'column',
-            background: 'whitesmoke'
+            background: 'whitesmoke',
+            paddingBottom: '70px'
           }}
         >
-          <h1 style={{color: 'black', paddingTop: '60px', fontSize: '3rem'}}>New In Tech</h1>
+          <h1 style={{color: 'black', paddingTop: '60px', fontSize: '5rem'}}>New In Tech</h1>
           <div style={{background: 'whitesmoke', width: '100%'}}>
           <div class="main-tech-top-div">
             <div class="tech-top-divs">Hi</div>
@@ -45,6 +46,21 @@ class GiveAways extends Component {
           </div>
           <div class="main-tech-mid-div">
             Other content
+          </div>
+          <div class="main-tech-top-div">
+            <div class="tech-top-divs">Hi</div>
+            <div class="tech-top-divs">Bye</div>
+            <div class="tech-top-divs">Cry</div>
+          </div>
+          <div class="main-tech-top-div">
+            <div class="tech-top-divs">Hi</div>
+            <div class="tech-top-divs">Bye</div>
+            <div class="tech-top-divs">Cry</div>
+          </div>
+          <div class="main-tech-top-div">
+            <div class="tech-top-divs">Hi</div>
+            <div class="tech-top-divs">Bye</div>
+            <div class="tech-top-divs">Cry</div>
           </div>
         </div>
         <footer className="mainFooterDiv">
