@@ -19,14 +19,14 @@ class GiveAways extends Component {
             background: 'whitesmoke'
           }}
         >
-          <h1 style={{color: 'whitesmoke'}}>Whats new in Tech?</h1>
+          <h1 style={{color: 'black', paddingTop: '60px', fontSize: '3rem'}}>New In Tech</h1>
           <div style={{background: 'whitesmoke', width: '100%'}}>
           <div class="main-tech-top-div">
             <div class="tech-top-divs">Hi</div>
             <div class="tech-top-divs">Bye</div>
             <div class="tech-top-divs">Cry</div>
           </div>
-          <div class="main-tech-mid-div ">
+          <div class="main-tech-mid-div">
             Other content
           </div>
           </div>
@@ -43,7 +43,7 @@ class GiveAways extends Component {
             <div class="tech-top-divs">Bye</div>
             <div class="tech-top-divs">Cry</div>
           </div>
-          <div class="main-tech-mid-div ">
+          <div class="main-tech-mid-div">
             Other content
           </div>
         </div>
