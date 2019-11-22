@@ -10,6 +10,8 @@ import nt5 from '../assets/newTech5.jpg';
 import nt6 from '../assets/newTech6.jpg';
 import nt7 from '../assets/newTech7.jpg';
 import nt8 from '../assets/newTech8.jpg';
+import nt9 from '../assets/newTech9.jpg';
+import nt10 from '../assets/newTech10.jpg';
 
 class GiveAways extends Component {
   render() {
@@ -50,13 +52,13 @@ class GiveAways extends Component {
           <div class="main-tech-top-div">
             <div class="tech-top-divs"><img src={nt7} alt="tech-pic" className="newTechPics"/></div>
             <div class="tech-top-divs"><img src={nt8} alt="tech-pic" className="newTechPics"/></div>
-            <div class="tech-top-divs">Cry</div>
+            <div class="tech-top-divs"><img src={nt9} alt="tech-pic" className="newTechPics"/></div>
           </div>
           <div class="main-tech-mid-div">
             Other content
           </div>
           <div class="main-tech-top-div">
-            <div class="tech-top-divs">Hi</div>
+            <div class="tech-top-divs"><img src={nt10} alt="tech-pic" className="newTechPics"/></div>
             <div class="tech-top-divs">Bye</div>
             <div class="tech-top-divs">Cry</div>
           </div>
